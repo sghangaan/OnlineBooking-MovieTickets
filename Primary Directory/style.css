@@ -1,0 +1,16 @@
+/* Add your CSS styles here */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a.active {
+    font-weight: bold;
+    color: #007bff; /* Blue color for the active link */
+}
