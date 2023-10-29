@@ -53,7 +53,7 @@ nav {
 }
 body {
     font-family: Arial, sans-serif;
-    background-image: url('images/MovieBG40%.png');
+    background-image: url('../Homepage/HP_Images//MovieBG40%.png');
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -126,7 +126,7 @@ body {
 /* Footer styles */
 footer {
     font-family: Cairo;
-    font-size: 16px;
+    font-size: 10px;
     text-align: center;
     padding: 3px;
     background-color: #230000;
@@ -162,62 +162,6 @@ footer {
     justify-content: space-between;
     width: 99%;
   }
-
-  .hamburger-menu {
-    --size: 30px;
-    height: var(--size);
-    width: var(--size);
-    cursor: pointer;
-    z-index: 101;
-    position: relative;
-    display: none;
-    align-items: center;
-}
-
-.hamburger {
-    position: relative;
-}
-
-.hamburger,
-.hamburger::before,
-.hamburger::after {
-    width: var(--size);
-    height: 3px;
-    border-radius: 0.5rem;
-    background-color: var(--text-color);
-    transition: 0.4s;
-}
-
-.hamburger::before,
-.hamburger::after {
-    content: "";
-    position: absolute;
-    left: 0;
-}
-
-.hamburger::before {
-    top: -10px;
-}
-
-.hamburger::after {
-    bottom: -10px;
-}
-
-.hamburger-menu.active .hamburger {
-    background-color: transparent;
-}
-
-.hamburger-menu.active .hamburger::before {
-    transform-origin: top left;
-    transform: rotate(45deg);
-    left: 6px;
-}
-
-.hamburger-menu.active .hamburger::after {
-    transform-origin: bottom left;
-    transform: rotate(-45deg);
-    left: 6px;
-}
 
   /* SMALL SCREEN */
 
@@ -380,9 +324,7 @@ footer {
         margin-top: var(--space--top);
         line-height: 1rem;
     }
-    .hamburger-menu {
-        display: grid;
-    }
+    
 
       
 }
