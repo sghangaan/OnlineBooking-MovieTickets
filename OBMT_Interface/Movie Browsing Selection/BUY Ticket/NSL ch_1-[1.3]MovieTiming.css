@@ -1,12 +1,6 @@
-
-html {
-    height: 100%;
-}
-
-
 header {
     background-color: #fff;
-    padding: 0px ;
+    padding: 12px ;
     width:auto;
 }
 
@@ -29,7 +23,7 @@ nav {
 }
 
 .nav-links li {
-    font-size: 12px;
+    font-size: 18px;
     font-family: Cairo;
 }
 .nav-links li ~ li {
@@ -37,7 +31,7 @@ nav {
 }
 
 .nav-links a {
-    width: 700px;
+    width: 106px;
     height: 38px;
     flex-shrink: 0;
     text-decoration: none;
@@ -53,31 +47,41 @@ nav {
 }
 body {
     font-family: Arial, sans-serif;
-    background-image: url('images/MovieBG40%.png');
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-    margin: 0;
-    min-height: 100%;
-    display: flex;
-    flex-direction: column;
+    background-image: url('../BUY Ticket/images/movbg.png');
+            background-size: cover;
+            background-position: center center;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+}
+.backbutton{
+    position: absolute;
+    align-items: right;
+    width: 1px;
+    left: 1300px;
+    object-fit: contain;
 }
 
+.backbutton:hover {
+    filter: grayscale(100%);
+}
+.poster {
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+}
 
 .middle {
     text-align: center;
-    padding: 100px;
     color: #fff;
 }
-
-
 
 .middle h1 {
 
     color: #FFF;
     text-align: center;
     font-family: Cairo;
-    font-size: 26px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -88,9 +92,58 @@ body {
     color: #FFF;
     text-align: center center;
     font-family: Cairo;
-    font-size: 8px;
+    font-size: 16px;
     font-style: normal;
-    font-weight: 200;
+    font-weight: 400;
+}
+    .movposter {
+    border-radius: 20px;
+    background: url('../MovInfPage/img/movposter.jpg'), lightgray 1.93px 0.175px / 100.379% 99.972% no-repeat;
+    box-shadow: 0px 4px 250px 100px rgba(0, 0, 0, 0.60);
+}
+.button.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    color: white;
+    font-weight: 400;
+}
+
+.button{
+    margin: 0 10px; /* Adjust the margin as needed */
+    padding: 10px 20px; /* Adjust the padding as needed */
+    
+    background-color: #590000;
+    color: white;
+    border: none;
+    border-radius: 13px;
+    cursor: pointer;
+    color: white;
+    font-weight: 400;
+}
+
+button.container a{
+    color: white;
+    font-weight: 400;
+}
+.button.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    color: white;
+    font-weight: 400;
+}
+
+.button1{
+    margin: 0 10px; /* Adjust the margin as needed */
+    padding: 10px 20px; /* Adjust the padding as needed */
+    background-color: #590000;
+    color: white;
+    border: none;
+    border-radius: 13px;
+    cursor: pointer;
 }
 .text{
     font-size: 1.15rem;
@@ -131,18 +184,15 @@ footer {
     padding: 3px;
     background-color: #230000;
     color: #fff;
-    margin-top: auto;
 }
-/* Terms and Condition | Privacy */
 .TCP {
     list-style-type: none;
     display: flex;
     font-family: Cairo;
     color: #fff;
 }
-
 .TCP li {
-    font-size: 11px;
+    font-size: 18px;
     font-family: Cairo;
 }
 
@@ -153,10 +203,6 @@ footer {
     transition: color 0.3s;
     font-family: Cairo;
 }
-
-/*END*/
-
-
 .text-container {
     display: flex;
     justify-content: space-between;
@@ -371,9 +417,7 @@ footer {
         
     }
     .footer{
-
-        margin-top:auto
-        
+        flex: 1;
     }
     .text p{
         font-size: 1.15rem;
