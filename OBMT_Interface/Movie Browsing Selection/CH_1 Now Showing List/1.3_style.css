@@ -12,21 +12,17 @@
     background-color: #fff;
     padding: 0px ;
     width: auto;
-    z-index: 999;
+    /*z-index: 999; ------ Attemp1 */
   }
 
   body {
     font-family: Cairo;
-    
     background-image: url('1.3_img/MovieBG56%.png');
     background-color: #fff;
     background-size: cover;
-    background-position: center;
+    background-position: center center;
     background-attachment: fixed;
-    margin: 0;
-    padding: 0;
-    margin: 0;
-    z-index: 1;
+    margin: 0%;
     min-height: 100%;
     display: flex;
     flex-direction: column;
@@ -72,52 +68,52 @@
     width: 99%;
   }
   
-  header .logo {
+  .logo {
     flex: 1;
   }
 
-  header nav {
-    margin: 0 auto;
+  nav {
+    margin-right: 5%;
+    margin-left: 4%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    }
+}
 
-    header .nav-links {
-        list-style-type: none;
-        display: flex;
-        gap: 20px;
-        font-family: Cairo; 
-       
-    }
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  font-family: Cairo; 
+}
 
-    header .nav-links li {
-        font-size: 12px;
-        font-family: Cairo;
-    }
+.nav-links li {
+  font-size: 12px;
+  font-family: Cairo;
+}
 
-    header .nav-links li ~ li {
-        margin-left: 30px;
-    }
+.nav-links li ~ li {
+  margin-left: 30px;
+}
 
-    header .nav-links a {
-        width: 70px;
-        height: 38px;
-        flex-shrink: 0;
-        text-decoration: none;
-        color: black;
-        transition: color 0.3s;
-        font-family: Cairo;
-        font-weight: 700;
-    }
 
-    header .nav-links a:hover {
-        color: #ff1900;
-    }
+.nav-links a {
+  width: 700px;
+  height: 38px;
+  flex-shrink: 0;
+  text-decoration: none;
+  color: black;
+  transition: color 0.3s;
+  font-family: Cairo;
+  font-weight: 700;
+}
+
+
+.nav-links a:hover {
+  color: #ff1900;
+}
   
-  header h1 {
-    font-size: 50px;
-  }
+
   
   /* Style the top navigation bar */
   .topnav {
