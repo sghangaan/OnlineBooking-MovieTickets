@@ -42,7 +42,7 @@ CSS
 JS
 
 
-Blue Beetle btn (Continue Number of Seat(s)) Seat Quantiy Selection (MOD3) Okay
+Blue Beetle btn (Continue Number of Seat(s)) Seat Quantiy Selection (MOD3)
 
 .../Background frame
 Str no. ticket for seat quantity decrementation selection 
@@ -61,7 +61,7 @@ JS
 
 
 
-Blue Beetle btn (Continue) Confirm Booking (MOD3) Okay
+Blue Beetle btn (Continue) Confirm Booking (MOD3) 
 Str Movie details
 Str selected seat(s)
 Modify Improve Arrow circle for back btn
