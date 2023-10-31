@@ -1,3 +1,35 @@
+
+Homepage (Clean Interactive) (MOD1)
+
+Note: 
+Clean header href ABOUT
+Clean Footer href Terms and Conditions
+Clean Footer href Privacy
+
+Browsing Navigation MOVIES (MOD1)
+
+Note: 
+Improvement for Footer Selection
+Clean header href HOME
+Clean header href MOVIES
+Clean header href ABOUT
+Clean Footer href Terms and Conditions
+Clean Footer href Privacy
+
+
+
+Blue Beetle btn (NOW SHOWING) About Movie (MOD1)
+
+Note: 
+Modidy Improve Padding spaces
+Modify Improve Arrow circle for back btn
+Clean header href HOME
+Clean header href MOVIES
+Clean header href ABOUT
+Clean Footer href Terms and Conditions
+Clean Footer href Privacy
+
+
 Blue Beetle btn (Buy Ticket) Selecting Available Schedule (MOD2)
 
 Note:
