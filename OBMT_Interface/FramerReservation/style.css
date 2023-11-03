@@ -63,52 +63,37 @@ body {
     flex-direction: column;
 }
 
-
-.middle {
-    text-align: center;
-    padding: 100px;
-    color: #fff;
+.button.container{
+    margin-left: 10%;
 }
 
-
-
-.middle h1 {
-
-    color: #FFF;
-    text-align: center;
-    font-family: Cairo;
-    font-size: 26px;
-    font-style: normal;
+.button{
+    line-height: .5rem;
+    margin: 0 0px; /* Adjust the margin as needed */
+    padding: 10px 20px; /* Adjust the padding as needed */
+    width: 190px;
+    background-color: #590000;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    color: white;
     font-weight: 400;
-    line-height: normal;
-    margin-bottom: 20px;
 }
 
-.middle p {
-    color: #FFF;
-    text-align: center center;
-    font-family: Cairo;
-    font-size: 8px;
-    font-style: normal;
-    font-weight: 200;
+button.container a{
+    color: white;
+    font-weight: 400;
 }
-.text{
-    font-size: 1.15rem;
-    margin-top: var(--space--top);
-    line-height: .5rem;
-    
-    
-}
-.text p{
-    font-size: 1.15rem;
-    margin-top: var(--space--top);
-    line-height: .5rem;
-}
+
+
 .cta-button {
+    line-height: .5rem;
+    
     font-family: Cairo;
     display: inline-block;
     padding: 0px;
-    width: 400px;
+    width: 190px;
     background-color: #fff;
     color: #111;
     text-decoration: none;
@@ -122,6 +107,9 @@ body {
     background-color: #230000;
     color: #fff;
 }
+
+
+
 
 /* Footer styles */
 footer {
