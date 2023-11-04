@@ -1,6 +1,12 @@
+
+html {
+    height: 100%;
+}
+
+
 header {
     background-color: #fff;
-    padding: 12px ;
+    padding: 0px ;
     width:auto;
 }
 
@@ -8,7 +14,7 @@ header {
     flex: 1;
   }
 
-nav {
+  nav {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -23,7 +29,7 @@ nav {
 }
 
 .nav-links li {
-    font-size: 18px;
+    font-size: 12px;
     font-family: Cairo;
 }
 .nav-links li ~ li {
@@ -31,7 +37,7 @@ nav {
 }
 
 .nav-links a {
-    width: 106px;
+    width: 700px;
     height: 38px;
     flex-shrink: 0;
     text-decoration: none;
@@ -47,24 +53,16 @@ nav {
 }
 body {
     font-family: Arial, sans-serif;
-    background-image: url('../BUY Ticket/images/movbg.png');
+    background-image: url('../BUY Ticket/images/MovieBG56%.png');
             background-size: cover;
             background-position: center center;
             background-attachment: fixed;
             margin: 0;
-            padding: 0;
-}
-.backbutton{
-    position: absolute;
-    align-items: right;
-    width: 1px;
-    left: 1300px;
-    object-fit: contain;
+            min-height: 100%;
+            display: flex;
+            flex-direction: column;
 }
 
-.backbutton:hover {
-    filter: grayscale(100%);
-}
 .poster {
     text-align: center;
     color: #fff;
@@ -73,6 +71,7 @@ body {
 
 .middle {
     text-align: center;
+    padding: 100px;
     color: #fff;
 }
 
@@ -81,7 +80,7 @@ body {
     color: #FFF;
     text-align: center;
     font-family: Cairo;
-    font-size: 18px;
+    font-size: 26px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -96,30 +95,61 @@ body {
     font-style: normal;
     font-weight: 400;
 }
-    .movposter {
-    border-radius: 20px;
-    background: url('../MovInfPage/img/movposter.jpg'), lightgray 1.93px 0.175px / 100.379% 99.972% no-repeat;
-    box-shadow: 0px 4px 250px 100px rgba(0, 0, 0, 0.60);
+
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    float: right;
+    margin-top: 3%;
+    margin-left: 4%;;
+  }
+  
+    .topnav .backcont {
+        width: 100%;
+    }
+
+    .topnav .backbutton{
+        width: 2px;
+        object-fit: contain;
+    }
+
+    .topnav .backbutton:hover {
+        filter: grayscale(100%);
+    }
+
+.movposter {
+    margin-left: 33%;
+    display: flex;
+    width: 35%;
+    height: 500px;
+    border-radius: 69px;
+    background-image: url('../BUY Ticket/images/1.3 Poster_sample.png');
+    background-position: center;
+    cursor: pointer;
+    transition: filter 0.3s ease-in-out;
+}
+
+.movposter:hover {
+  filter: grayscale(50%);
 }
 .button.container{
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0;
-    color: white;
+    color: rgb(237, 12, 12);
     font-weight: 400;
 }
 
 .button{
     margin: 0 10px; /* Adjust the margin as needed */
     padding: 10px 20px; /* Adjust the padding as needed */
-    
-    background-color: #590000;
-    color: white;
+    background-color: #565555;
     border: none;
     border-radius: 13px;
     cursor: pointer;
-    color: white;
+    color: rgb(255, 255, 255);
     font-weight: 400;
 }
 
@@ -131,19 +161,20 @@ button.container a{
     display: flex;
     justify-content: center;
     align-items: center;
-    
     color: white;
     font-weight: 400;
+    margin: 0%;
 }
 
 .button1{
-    margin: 0 10px; /* Adjust the margin as needed */
+    margin: 0x 9px; /* Adjust the margin as needed */
     padding: 10px 20px; /* Adjust the padding as needed */
-    background-color: #590000;
+    background-color: #1f1e1e;
     color: white;
     border: none;
     border-radius: 13px;
     cursor: pointer;
+    font-weight: 400;
 }
 .text{
     font-size: 1.15rem;
@@ -161,7 +192,8 @@ button.container a{
     font-family: Cairo;
     display: inline-block;
     padding: 0px;
-    width: 400px;
+    margin-top: 2%;
+    width: 500px;
     background-color: #fff;
     color: #111;
     text-decoration: none;
@@ -176,23 +208,55 @@ button.container a{
     color: #fff;
 }
 
+
+
+.tixbutton {
+    width: 40%;
+    top: 00px;
+    left: 400px;
+    font-family: Cairo;
+    font-size: 18px;
+    display: inline-block;
+    padding: 1px;
+    margin: 0% 12%;
+    border-radius: 80px;
+    background: #000000;
+    color: #ffffff;
+    box-shadow: 0px 4px 17px 11px rgba(155, 12, 12, 0.5);
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: bold;
+    transition: background-color 0.2s;
+    text-align: center;
+  }
+  
+  .tixbutton:hover {
+    font-family: Cairo;
+    background-color: #ffffff;
+    color: #000000;
+  }
+
+
 /* Footer styles */
 footer {
     font-family: Cairo;
-    font-size: 16px;
+    font-size: 10px;
     text-align: center;
     padding: 3px;
     background-color: #230000;
     color: #fff;
+    margin-top: auto;
 }
+/* Terms and Condition | Privacy */
 .TCP {
     list-style-type: none;
     display: flex;
     font-family: Cairo;
     color: #fff;
 }
+
 .TCP li {
-    font-size: 18px;
+    font-size: 11px;
     font-family: Cairo;
 }
 
@@ -203,12 +267,15 @@ footer {
     transition: color 0.3s;
     font-family: Cairo;
 }
+
+/*END*/
+
+
 .text-container {
     display: flex;
     justify-content: space-between;
     width: 99%;
   }
-
   .hamburger-menu {
     --size: 30px;
     height: var(--size);

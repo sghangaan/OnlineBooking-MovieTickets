@@ -445,26 +445,28 @@ footer{
 }
 .containerfooter{
     width: 1100px;
-    margin: 2%;
+    margin: 2.9%;
     display: flex;
     font-weight: 11%;
    
 }
 .footer-content{
     text-align:300px;
-    margin-left: 3.8%;
-    margin-right: 11%;
+    margin-left: 3.4%;
+    margin-right: 30%;
     font-size: 13px;
     width: 40%;
     color: rgb(255, 255, 255)
+    
   
 }
 h3{
+    height: 50px;
     width: 300px;
-    font-size: 13px;
+    font-size: 19px;
     margin-bottom: 0px;
-    text-align:300px;
-    margin: auto;
+    text-align:left;
+    margin: center;
 }
 .footer-content p{
     width: 300px;
@@ -502,7 +504,7 @@ h3{
     width: 80px;
 }
 .social-icons{
-    text-align: center;
+    text-align: left;
    
 }
 .social-icons li{
@@ -537,6 +539,9 @@ a:hover{
     font-size: 12px;
     padding: 2px;
 }
+.logoFooter {
+    flex: 1;
+  }
 
 
 /* RESPONSIVE */
