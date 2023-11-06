@@ -16,6 +16,16 @@ Clean header href ABOUT
 Clean Footer href Terms and Conditions
 Clean Footer href Privacy
 
+CHAWON Collect Dasala work, (Merging Modification Syntax)
+
+CHAWON Collect Lasala work, (Merging Modification Syntax)
+
+CHAWON Create About, Terms, Privacy html, CSS
+
+CHAWON Blue Beetle btn (Continue Number of Seat(s)) Seat Quantity Selection (MOD3) 
+(Merging Modification Syntax)
+
+ 
 
 
 Blue Beetle btn (NOW SHOWING) About Movie (MOD1)
