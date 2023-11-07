@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About Movie</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<header>
+    <nav>
+        <div class="logo">
+            <img src ="img/LOGO BLACK  University Cinema Booking Ticket.png" alt="logo" width = "350px">
+        </div>
+        <div class="nav-links-cont" stle="float:right">
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Movies</a></li>
+                <li><a href="#">About Us</a></li>
+                <span class ="icons">
+                </span>
+            </ul>
+        </div> 
+        <!-- MOBILE MENU TOGGLE -->
+        <div class="hamburger-menu" id="hamburger-menu">
+            <div class="hamburger"></div>
+        </div>
+    </nav>
+</header>
+
+<body>
+    <div class="topnav">
+        <a href="#" class="backbutton">
+            <img src="img/back_button.png" alt="back" width = "80px">
+        </a>
+    </div>
+
+    <div class="row">
+        <div class="leftcolumn">
+            <div class="movposter">
+                <div class="watch-trailer-button">
+                    <a class="movie-link" href="https://youtu.be/4wxyy8Rcz4k?si=hH5ozoM6v5pSRQa3">Click to Watch Trailer!</a>
+                </div>
+            </div>
+        </div>
+        <div class="rightcolumn">
+            <div class="availableseat">
+                <p class="subhead">Select Available Seats</p>
+            </div>
+            <div class="availableseat">
+                <p class="movinfo">
+                    <span class="text-wrapper">Run Time:</span>
+                    <span class="span"> 2hr 7min<br /></span>
+                    <span class="text-wrapper">Movie Title:</span>
+                    <span class="span"> Blue Beetle<br /></span>
+                    <span class="text-wrapper">Cast: </span>
+                    <span class="span">Raoul Max Trujillo, Susan Sarandon, Xolo Maridueña<br /></span>
+                    <span class="text-wrapper">Genre:</span>
+                    <span class="span"> Action/Adventure<br /></span>
+                    <span class="text-wrapper">IMDB Rating:</span>
+                    <span class="span"> 6.7/10</span>
+                </p>
+            </div>
+            <div class="availableseat">
+                <div>
+                    <p>Available Seats: 50</p>
+                </div>
+                <div class="inQuantity">
+                    <label for="input">Number of Ticket/s:</label>
+                    <button class="qtybutton" id="minus">−</button>
+                    <input class="qtyinput" type="number" value="0" id="input" min="0" max="8">
+                    <button class="qtybutton" id="plus">+</button>
+                    <script>
+                        const minusButton = document.getElementById('minus');
+                        const plusButton = document.getElementById('plus');
+                        const inputField = document.getElementById('input');
+                        
+                        const minValue = 0; // Minimum value
+                        const maxValue = 8; // Maximum value
+
+                        minusButton.addEventListener('click', event => {
+                            event.preventDefault();
+                            let currentValue = Number(inputField.value) || 0;
+                            if (currentValue > minValue) {
+                                inputField.value = currentValue - 1;
+                            }
+                        });
+
+                        plusButton.addEventListener('click', event => {
+                            event.preventDefault();
+                            let currentValue = Number(inputField.value) || 0;
+                            if (currentValue < maxValue) {
+                                inputField.value = currentValue + 1;
+                            }
+                        });
+
+                        document.getElementById("input").addEventListener("change", function() {
+                            let v = parseInt(this.value);
+                            if (v < 1) this.value = 1;
+                            if (v > 8) this.value = 8;
+                        });
+                    </script>
+                </div>
+                <br><a href="#" class="tixbutton">BUY TICKETS</a><br><br>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <ul class="TCP">
+        <div class="text-container">
+            <div class="left-text"><a href="#"></a>Terms and Conditions</a> | <a href="#">Privacy</a></div>
+            <div class="right-text">&copy; Copyrights 2023 University Booking Ticket All Rights Reserved.</div>
+        </div>
+        </ul>
+    </footer>
+</body>
+</html>
+
+
