@@ -5,7 +5,7 @@ html {
 
 
 header {
-    background-color: #fff;
+    background-color: #000000;
     padding: 0px ;
     width:auto;
 }
@@ -41,7 +41,7 @@ header {
     height: 38px;
     flex-shrink: 0;
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
     transition: color 0.3s;
     font-family: Cairo;
     font-weight: 700;
@@ -52,8 +52,7 @@ header {
     color: #ff1900;
 }
 body {
-    font-family: Arial, sans-serif;
-    background-image: url('../BUY Ticket/images/MovieBG56%.png');
+    background-image: url('../BUY Ticket/images/AvailSchedule2.png');
             background-size: cover;
             background-position: center center;
             background-attachment: fixed;
@@ -66,12 +65,12 @@ body {
 .poster {
     text-align: center;
     color: #fff;
-    margin-top: 20px;
+   
 }
 
 .middle {
     text-align: center;
-    padding: 100px;
+    padding: 38px;
     color: #fff;
 }
 
@@ -84,7 +83,7 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .middle p {
@@ -97,42 +96,16 @@ body {
 }
 
 
-/* Style the top navigation bar */
-.topnav {
-    overflow: hidden;
-    float: right;
-    margin-top: 3%;
-    margin-left: 4%;;
-  }
-  
-    .topnav .backcont {
-        width: 100%;
-    }
 
-    .topnav .backbutton{
-        width: 2px;
-        object-fit: contain;
-    }
-
-    .topnav .backbutton:hover {
-        filter: grayscale(100%);
-    }
 
 .movposter {
     margin-left: 33%;
-    display: flex;
-    width: 35%;
-    height: 500px;
-    border-radius: 69px;
-    background-image: url('../BUY Ticket/images/1.3 Poster_sample.png');
-    background-position: center;
-    cursor: pointer;
+    width: 34%;
+    height: 240px;
     transition: filter 0.3s ease-in-out;
 }
 
-.movposter:hover {
-  filter: grayscale(50%);
-}
+
 .button.container{
     display: flex;
     justify-content: center;
@@ -167,7 +140,7 @@ button.container a{
 }
 
 .button1{
-    margin: 0x 9px; /* Adjust the margin as needed */
+    margin: 0x 10px; /* Adjust the margin as needed */
     padding: 10px 20px; /* Adjust the padding as needed */
     background-color: #1f1e1e;
     color: white;
@@ -179,20 +152,19 @@ button.container a{
 .text{
     font-size: 1.15rem;
     margin-top: var(--space--top);
-    line-height: .5rem;
+    line-height: .3rem;
     
     
 }
 .text p{
     font-size: 1.15rem;
     margin-top: var(--space--top);
-    line-height: .5rem;
+    line-height: .3rem;
 }
 .cta-button {
     font-family: Cairo;
     display: inline-block;
-    padding: 0px;
-    margin-top: 2%;
+    margin-top: 0px;
     width: 500px;
     background-color: #fff;
     color: #111;
@@ -217,7 +189,6 @@ button.container a{
     font-family: Cairo;
     font-size: 18px;
     display: inline-block;
-    padding: 1px;
     margin: 0% 12%;
     border-radius: 80px;
     background: #000000;
@@ -243,7 +214,7 @@ footer {
     font-size: 10px;
     text-align: center;
     padding: 3px;
-    background-color: #230000;
+    background-color: #000000;
     color: #fff;
     margin-top: auto;
 }
@@ -276,62 +247,7 @@ footer {
     justify-content: space-between;
     width: 99%;
   }
-  .hamburger-menu {
-    --size: 30px;
-    height: var(--size);
-    width: var(--size);
-    cursor: pointer;
-    z-index: 101;
-    position: relative;
-    display: none;
-    align-items: center;
-}
-
-.hamburger {
-    position: relative;
-}
-
-.hamburger,
-.hamburger::before,
-.hamburger::after {
-    width: var(--size);
-    height: 3px;
-    border-radius: 0.5rem;
-    background-color: var(--text-color);
-    transition: 0.4s;
-}
-
-.hamburger::before,
-.hamburger::after {
-    content: "";
-    position: absolute;
-    left: 0;
-}
-
-.hamburger::before {
-    top: -10px;
-}
-
-.hamburger::after {
-    bottom: -10px;
-}
-
-.hamburger-menu.active .hamburger {
-    background-color: transparent;
-}
-
-.hamburger-menu.active .hamburger::before {
-    transform-origin: top left;
-    transform: rotate(45deg);
-    left: 6px;
-}
-
-.hamburger-menu.active .hamburger::after {
-    transform-origin: bottom left;
-    transform: rotate(-45deg);
-    left: 6px;
-}
-
+  
   /* SMALL SCREEN */
 
 @media only screen and (max-width: 850px) {
