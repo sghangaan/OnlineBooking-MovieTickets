@@ -52,7 +52,6 @@ nav {
     color: #ff1900;
 }
 body {
-    font-family: Arial, sans-serif;
     background-image: url('../Homepage/HP_Images//MovieBG40%.png');
     background-size: cover;
     background-position: center center;
@@ -153,7 +152,6 @@ footer {
     transition: color 0.3s;
     font-family: Cairo;
 }
-
 /*END*/
 
 
@@ -323,10 +321,7 @@ footer {
         font-size: 1.15rem;
         margin-top: var(--space--top);
         line-height: 1rem;
-    }
-    
-
-      
+    } 
 }
 
 /* Styles for desktop screens */
