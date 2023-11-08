@@ -497,7 +497,7 @@ h3{
     top: 100%;
     width: 0;
     height: 2px;
-    background: #f30000;
+    background: #adaa0e;
     transition-duration: .5s;
 }
 .list li:hover::before{
@@ -509,11 +509,14 @@ h3{
 }
 .social-icons li{
     display: inline-block;
-    padding: 14px;
+    padding: 12px;
+    margin-right: 1%;
 }
 .social-icons i{
     color: rgb(255, 255, 255);
     font-size: 35px;
+    margin-right: 1%;
+    padding: 9px;
 }
 a{
      text-align:300px;
@@ -525,7 +528,7 @@ a:hover{
     color: #ffffff;
 }
 .social-icons i:hover{
-    color: #ff0000;
+    color: #adaa0e;
 }
 .bottom-bar{
     background: rgb(0, 0, 0);
