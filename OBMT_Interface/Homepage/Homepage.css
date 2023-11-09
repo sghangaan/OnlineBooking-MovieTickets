@@ -264,64 +264,12 @@ footer {
     }
 }
 /* Styles for mobile screens */
-@media (max-width: 767px) {
-    header {
-        background-color: #FFF;
-        padding: 12px ;
-        width:auto;
-    }
-    .nav-links {
-        display: none; /* Hide the navigation links on smaller screens */
-        flex-direction: column;
-        background-color: black;
-        position: absolute;
-        top: 100%;
-        left:-100%;
-        width: 80%;
-        padding: 20px;
-        transition: 0.3s ease-in-out;
-    }
+@media (max-width: 600px) {
 
-    .nav-links.active {
-        left: 0;
-    }
-
-    .nav-links li {
-        margin: 10px 30px;
-    }
-
-    .hamburger-menu {
-        display: block;
-        cursor: pointer;
-    }
-    .cta-button {
-        font-size: 14px;
-        padding: 6px 14px;
-        width: auto;
-    }
-
-    .text-container {
-        display: flex;
-        justify-content: space-between;
-        width: auto;
-      }
-      .text{
-        font-size: 1.15rem;
-        margin-top: var(--space--top);
-        line-height: 1rem;
-        
-        
-    }
-    .footer{
-
-        margin-top:auto
-        
-    }
-    .text p{
-        font-size: 1.15rem;
-        margin-top: var(--space--top);
-        line-height: 1rem;
-    } 
+   /* Ongoing */
+   html {
+    height: 100%;
+   }  
 }
 
 /* Styles for desktop screens */
