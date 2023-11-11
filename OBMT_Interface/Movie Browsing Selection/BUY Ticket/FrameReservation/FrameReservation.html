@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="x-icon" href="./Images/ICON.png">
+    <title>Seat Reservation</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="Cairo.css" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src ="./Images/LOGO WHITE University Cinema Booking Ticket_s2 (1).png" alt="logo" width = "198px">
+            </div>
+            <div class ="openMenu"><i class="fa fa-bars"></i></div>
+            <ul class="nav-links">
+                <li><a href="#">HOME</a></li>
+                <li><a href= "#">MOVIES</a></li> 
+                <li><a href="#">ABOUT</a></li>
+                <div class ="openMenu"><i class="fa fa-bars"></i></div>
+                <span class ="icons">
+                </span>
+            </ul>
+            <!-- MOBILE MENU TOGGLE UNDONE --> 
+        </nav>
+    </header> 
+    
+    <span class = "seatNumber" id = "reSeat">‎
+        
+    </span>
+    <span class = "row1 ">
+        <button id = "num1" class="seats1" onclick="num1(),number()">1</button>
+        <button id = "num2" class="seats1" onclick="num2(),number()">2</button>
+        <button id = "num3" class="seats1" onclick="num3(),number()">3</button>
+        <button id = "num4" class="seats1" onclick="num4(),number()">4</button>
+        <button id = "num5" class="seats1" onclick="num5(),number()">5</button>
+    </span>
+    
+    <span  id ="checker" class = "counter" >‎ ‎ Number of tickets: 55</span>
+    <span class = "row2">
+        <button id = "num6" class="seats2" onclick="num6(),number()">6</button>
+        <button id = "num7" class="seats2" onclick="num7(),number()">7</button>
+        <button id = "num8" class="seats2" onclick="num8(),number()">8</button>
+        <span class = "nine">
+            <button id = "num9" class="seats2" onclick="num9(),number()">9</button>
+        </span>
+    <span class = "row2mid">
+            <button id = "num10" class="seats2right" onclick="num10(),number()">10</button>
+            <button id = "num11" class="seats2right" onclick="num11(),number()">11</button>
+            <button id = "num12" class="seats2right" onclick="num12(),number()">12</button>
+            <button id = "num13" class="seats2right" onclick="num13(),number()">13</button>
+    </span>
+    <span class = "row2right">
+        <button id = "num14" class="seats2right" onclick="num14(),number()">14</button>
+        <button id = "num15" class="seats2right" onclick="num15(),number()">15</button>
+        <button id = "num16" class="seats2right" onclick="num16(),number()">16</button>   
+    </span>
+</span>
+
+    <span class = "row3">
+        <button id = "num17" class="seats3" onclick="num17(),number()">17</button>
+        <button id = "num18" class="seats3" onclick="num18(),number()">18</button>
+        <button id = "num19" class="seats3" onclick="num19(),number()">19</button>
+    <span class = "row3mid">
+            <button id = "num20" class="seats3mid" onclick="num20(),number()">20</button>
+            <button id = "num21" class="seats3mid" onclick="num21(),number()">21</button>
+            <button id = "num22" class="seats3mid" onclick="num22(),number()">22</button>
+            <button id = "num23" class="seats3mid" onclick="num23(),number()">23</button>
+            <button id = "num24" class="seats3mid" onclick="num24(),number()">24</button>
+    </span>
+    <span class = "row3right">
+        <button id = "num25" class="seats3right" onclick="num25(),number()">25</button>
+        <button id = "num26" class="seats3right" onclick="num26(),number()">26</button>
+        <button id = "num27" class="seats3right" onclick="num27(),number()">27</button>   
+    </span>
+    </span>
+
+    
+    <span class = "row4">
+        <button id = "num28" class="seats4" onclick="num28(),number()">28</button>
+        <button id = "num29" class="seats4" onclick="num29(),number()">29</button>
+    <span class = "row4mid">
+            <button id = "num30" class="seats4mid" onclick="num30(),number()">30</button>
+            <button id = "num31" class="seats4mid" onclick="num31(),number()">31</button>
+            <button id = "num32" class="seats4mid" onclick="num32(),number()">32</button>
+            <button id = "num33" class="seats4mid" onclick="num33(),number()">33</button> 
+            <button id = "num34" class="seats4mid" onclick="num34(),number()">34</button>
+    </span>
+    <span class = "row4right">
+        <button id = "num35" class="seats4right" onclick="num35(),number()">35</button>
+        <button id = "num36" class="seats4right" onclick="num36(),number()">36</button>
+    </span>
+    </span>
+
+   
+    <section class="middle">
+    <div class="button-container">
+        <button class="button" onclick ="backButton()">Back</button>
+        <button class="button" onclick="resetButton()">Reset</button>
+        <button id = "cont" class="button" onclick="continueButton()">Continue</button>      
+    </div> 
+</section>
+
+    <footer>
+        <ul class="TCP">
+        <div class="text-container">
+            <div class="left-text"><a href="#">Terms and Conditions</a> | <a href="#">Privacy</a></div>
+            <div class="right-text">&copy; Copyrights 2023 University Booking Ticket All Rights Reserved.</div>
+            </div>
+            </ul>
+    </footer>
+
+    <script src = "./script.js"></script>
+</body>
+</html>
