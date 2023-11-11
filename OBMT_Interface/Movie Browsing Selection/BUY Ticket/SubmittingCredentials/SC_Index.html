@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Booking Details</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/83e381947c.js" crossorigin="anonymous"></script>
+    <script src = "./SC_scripts.js"></script>
+    <link rel="stylesheet" href="./SC_style.css">
+</head>
+<header>
+    <nav>
+        <div class="logo">
+            <img src ="Images/LOGO BLACK  University Cinema Booking Ticket.png" alt="logo" width = "350px">
+        </div>
+        <div class="nav-links-cont" stle="float:right">
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Movies</a></li>
+                <li><a href="#">About Us</a></li>
+                <span class ="icons">
+                </span>
+            </ul>
+        </div> 
+        <!-- MOBILE MENU TOGGLE -->
+        <div class="hamburger-menu" id="hamburger-menu">
+            <div class="hamburger"></div>
+        </div>
+    </nav>
+</header>
+
+<body>
+    <div class="topnav">
+        <a href="../FrameReservation/FrameReservation.html" class="backbutton">
+            <img src="Images/back_button.png" alt="back" width = "80px">
+        </a>
+    </div>
+    <div class="row">
+        <div class="leftcolumn">
+            <div class="movposter"></div>
+        </div>
+        <div class="rightcolumn">
+            <p class = "head">Fill in your details</p>
+            <div class="form">
+                <form>
+                    <div class="row2">
+                        <div class = "input-group">
+                            <input type="email" id="email" required>
+                            <label for="email"><i class="fa-regular fa-envelope"></i>  Your Email</label>
+                        </div> <br>
+    
+                        <div class = "input-group">
+                            <input type="text" id="name" required>
+                            <label for="name"><i class="fa-regular fa-user"></i>  Your Name</label>
+                        </div> <br>
+                    </div>
+                    <div class = "input-group">
+                        <input type="text" id="phone" required>
+                        <label for="phone"><i class="fa-solid fa-mobile-screen-button"></i>  Your Phone No.</label>
+                    </div> <br>
+
+                    <div class = "input-group">
+                        <textarea id="address" rows="2" required></textarea>
+                        <label for="address"><i class="fa-solid fa-house-user"></i>  Your Address</label>
+                    </div> <br>
+
+                    <div class = "input-group">
+                        <input type="text" id="country" required>
+                        <label for="country"><i class="fa-solid fa-earth-americas"></i>  Your Country</label>
+                    </div> <br>
+
+                    <div class="date-time">
+                        <p>
+                            <strong>Running Time:</strong> 2hrs 7mins<br>
+                            <strong>Movie Title:</strong> Blue Bettle<br>
+                            <strong>Date:</strong> Insert Date <br>
+                            <strong>Time</strong> Insert Time <br>
+                        </p>
+                    </div>
+                    <div class="seats"> 
+                        <p>
+                            <strong id = "reserved">Selected Seat(s)</strong> 
+                        </p>
+                    </div>
+                   <div class ="row3">
+                        <div class = "checkbox">
+                            <input type="checkbox" id="check" required>
+                        </div>
+                        <p class="accept">‎ ‎ Accept Terms and Conditions</p>
+                    </div>
+
+                    <button type="submit">
+                        <a href="" class="tixbutton">CONFIRM BOOKING</a>
+                    </button>
+
+                </form>
+            </div>
+        </div>
+    </div>   
+<footer>
+    <ul class="TCP">
+    <div class="text-container">
+        <div class="left-text"><a href="#"></a>Terms and Conditions</a> | <a href="#">Privacy</a></div>
+        <div class="right-text">&copy; Copyrights 2023 University Booking Ticket All Rights Reserved.</div>
+    </div>
+    </ul>
+</footer>
+</body>
+</html>
+

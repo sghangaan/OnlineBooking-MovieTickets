@@ -33,9 +33,15 @@ function storeName() {
     // Get the user's name from the input field
     var b = document.getElementById("input").value;
     
+    if (b==0){
+        alert("Please Enter the Desired Quantity of Tickets")
+    }
 
+    else{
     // Store the user's name in localStorage
     localStorage.setItem("b", b);
+    window.location.href = "../BUY Ticket/FrameReservation/FrameReservation.html";
+    }
 }
 
 

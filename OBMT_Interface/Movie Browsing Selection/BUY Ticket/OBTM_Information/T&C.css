@@ -18,7 +18,7 @@
 }
 
 body{
-  background: var(--bg-clr);
+  background-image: url('../OBTM_Information/TC_61%.png');
   font-size: 12px;
   line-height: 20px;
   color: var(--primary-text-clr);
