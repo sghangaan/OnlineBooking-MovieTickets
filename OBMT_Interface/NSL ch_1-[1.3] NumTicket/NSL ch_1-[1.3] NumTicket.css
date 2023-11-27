@@ -1,0 +1,358 @@
+html {
+  height: 100%;
+}
+
+
+header {
+  background-color: #fff;
+  padding: 0px ;
+  width:auto;
+}
+
+.logo {
+  flex: 1;
+}
+
+nav {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  font-family: Cairo; 
+}
+
+.nav-links li {
+  font-size: 12px;
+  font-family: Cairo;
+}
+.nav-links li ~ li {
+  margin-left: 30px;
+}
+
+.nav-links a {
+  width: 700px;
+  height: 38px;
+  flex-shrink: 0;
+  text-decoration: none;
+  color: black;
+  transition: color 0.3s;
+  font-family: Cairo;
+  font-weight: 700;
+}
+
+
+.nav-links a:hover {
+  color: #ff1900;
+}
+
+
+
+body {
+  font-family: Cairo;
+  background-image: url('images/NumTicketbg_.png');
+  background-color: #fff;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  margin: 0;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.rightcolumn {
+  float: left;
+  width: 60%;
+  padding: 0px;
+  width: 66%;
+  
+}
+
+.availableseat {
+  width: 47%;
+  top: 23px;
+  left: 599px;
+  font-family: Cairo;
+  display: inline-block;
+  border-radius: 19px;
+  border: 2px solid #000000;
+  box-shadow: 0px 4px 17px 11px rgba(255, 255, 255, 0.5);
+  font-family: Cairo;
+  font-size: 14px;
+}
+
+
+.inQuantity {
+  margin: 2px;
+}
+
+.qtyinput {
+  width: 180px;
+  height: 26px;
+  border: 2px solid #ffffff; 
+  border-radius: 9px;
+  padding: 3px;
+  font-family: Cairo;
+  font-size: 14px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+}
+
+.qtybutton {
+  width: 8%;
+  font-family: Cairo;
+  font-size: 19px;
+  display: inline-block;
+  padding: 0px;
+  background-color: rgba(0, 0, 0, 0);
+  border: rgba(255, 12, 12, 0);
+  color: #ffffff;
+  border-radius: 50px;
+  font-weight: bold;
+}
+
+.rightcolumn .tixbutton {
+width: 80%;
+top: 500px;
+left: 599px;
+font-family: Cairo;
+font-size: 20px;
+display: inline-block;
+padding: 0px;
+margin: 0% 10%;
+border-radius: 110px;
+background: #590000;
+color: #fff;
+text-decoration: none;
+font-weight: bold;
+transition: background-color 0.3s;
+text-align: center;
+}
+
+.rightcolumn .tixbutton:hover {
+font-family: Cairo;
+background-color: #f7f7f7;
+color: #000000;
+}
+
+.rightcolumn .availableseat {
+margin: 4px 100px;
+margin-top: 48%;
+top: 380px;
+left: 560px;
+font-family: Cairo;
+font-weight: 400;
+color: #ffffff;
+font-size: 15px;
+text-align: center;
+letter-spacing: 0;
+line-height: 95%;
+}
+
+/* Footer styles */
+footer {
+  font-family: Cairo;
+  font-size: 10px;
+  text-align: center;
+  padding: 3px;
+  background-color: #230000;
+  color: #fff;
+  margin-top: auto;
+}
+/* Terms and Condition | Privacy */
+.TCP {
+  list-style-type: none;
+  display: flex;
+  font-family: Cairo;
+  color: #fff;
+}
+
+.TCP li {
+  font-size: 11px;
+  font-family: Cairo;
+}
+
+.TCP a {
+  flex-shrink: 0;
+  text-decoration: none;
+  color: #FFF;
+  transition: color 0.3s;
+  font-family: Cairo;
+}
+/*END*/
+
+
+.text-container {
+  display: flex;
+  justify-content: space-between;
+  width: 99%;
+}
+
+/* SMALL SCREEN */
+
+@media only screen and (max-width: 850px) {
+  .col-sm-1 {
+      width: 8.33%;
+  }
+
+  .col-sm-2 {
+      width: 16.66%;
+  }
+
+  .col-sm-3 {
+      width: 25%;
+  }
+
+  .col-sm-4 {
+      width: 33.33%;
+  }
+
+  .col-sm-5 {
+      width: 41.66%;
+  }
+
+  .col-sm-6 {
+      width: 50%;
+  }
+
+  .col-sm-7 {
+      width: 58.33%;
+  }
+
+  .col-sm-8 {
+      width: 66.66%;
+  }
+
+  .col-sm-9 {
+      width: 75%;
+  }
+
+  .col-sm-10 {
+      width: 83.33%;
+  }
+
+  .col-sm-11 {
+      width: 91.66%;
+  }
+
+  .col-sm-12 {
+      width: 100%;
+  }
+}
+/* MEDIUM SCREEN */
+
+@media only screen and (max-width: 1280px) {
+  .col-md-1 {
+      width: 8.33%;
+  }
+
+  .col-md-2 {
+      width: 16.66%;
+  }
+
+  .col-md-3 {
+      width: 25%;
+  }
+
+  .col-md-4 {
+      width: 33.33%;
+  }
+
+  .col-md-5 {
+      width: 41.66%;
+  }
+
+  .col-md-6 {
+      width: 50%;
+  }
+
+  .col-md-7 {
+      width: 58.33%;
+  }
+
+  .col-md-8 {
+      width: 66.66%;
+  }
+
+  .col-md-9 {
+      width: 75%;
+  }
+
+  .col-md-10 {
+      width: 83.33%;
+  }
+
+  .col-md-11 {
+      width: 91.66%;
+  }
+
+  .col-md-12 {
+      width: 100%;
+  }
+}
+/* Styles for mobile screens */
+@media (max-width: 600px) {
+
+ /* Ongoing */
+ html {
+  height: 100%;
+ }  
+}
+
+/* Styles for desktop screens */
+@media (min-width: 768px) {
+  .hamburger-menu {
+      display: none; /* Hide the hamburger menu toggle on larger screens */
+  }
+  .logo {
+      margin-left: 50px;
+    }
+    .nav-links {
+      list-style-type: none;
+      display: flex;
+      gap: 20px;
+      font-family: Cairo;
+      margin-right: 30px;
+      
+  }
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

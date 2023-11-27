@@ -1,0 +1,383 @@
+* {
+    box-sizing: border-box;
+  }
+  
+
+  html {
+    height: 100%;
+}
+
+   /* Header/Blog Title */
+   header {
+    background-color: #fff;
+    padding: 0px ;
+    width: auto;
+  }
+
+  body {
+    font-family: Cairo;
+    background-image: url('1.3_img/MovieBG56%.png');
+    background-color: #fff;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    margin: 0%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+
+  }
+  
+  /* Footer styles */
+  footer {
+    font-family: Cairo;
+    font-size: 11px;
+    text-align: center;
+    padding: 3px;
+    background-color: #230000;
+    color: #fff;
+    margin-top: auto;
+}
+
+/* Terms and Condition | Privacy */
+.TCP {
+    list-style-type: none;
+    display: flex;
+    font-family: Cairo;
+    color: #fff;
+}
+
+.TCP li {
+    font-size: 11px;
+    font-family: Cairo;
+}
+
+.TCP a {
+    flex-shrink: 0;
+    text-decoration: none;
+    color: #FFF;
+    transition: color 0.3s;
+    font-family: Cairo;
+}
+/*END*/
+
+.text-container {
+    display: flex;
+    justify-content: space-between;
+    width: 99%;
+  }
+  
+  .logo {
+    flex: 1;
+  }
+
+  nav {
+    margin-right: 3%;
+    margin-left: 4%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  font-family: Cairo; 
+}
+
+.nav-links li {
+  font-size: 12px;
+  font-family: Cairo;
+}
+
+.nav-links li ~ li {
+  margin-left: 30px;
+}
+
+
+.nav-links a {
+  width: 700px;
+  height: 38px;
+  flex-shrink: 0;
+  text-decoration: none;
+  color: black;
+  transition: color 0.3s;
+  font-family: Cairo;
+  font-weight: 700;
+}
+
+
+.nav-links a:hover {
+  color: #ff1900;
+}
+  
+
+  
+  /* Style the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    float: right;
+    margin: 0px 0px 0px 0px;
+
+  }
+  
+    .topnav .backcont {
+        width: 100%;
+    }
+
+    .topnav .backbutton{
+        width: 2px;
+        object-fit: contain;
+    }
+
+    .topnav .backbutton:hover {
+        filter: grayscale(100%);
+    }
+
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .leftcolumn {   
+    float: left;
+    padding: 50px;
+    width: 40%;
+  }
+
+  .movposter {
+    margin-left: 20%;
+    display: flex;
+    width: 90%;
+    height: 490px;
+    border-radius: 67px;
+    background-image: url('1.3_img/1.3 Poster_sample.png');
+    box-shadow: 30px 30px 30px 30px rgba(0, 0, 0, 0.60);
+    background-position: center;
+    cursor: pointer;
+    transition: filter 0.3s ease-in-out;
+}
+
+.movposter:hover {
+  filter: grayscale(30%);
+}
+
+/* "Watch Trailer" button styles */
+.movposter .watch-trailer-button {
+  display: flex;
+    width: 90%;
+    height: 490px;
+    border-radius: 67px;
+}
+
+/* Show the "Watch Trailer" button on hover */
+.movposter:hover .watch-trailer-button {
+  display: flex;
+  width: 110%;
+  height: 490px;
+    border-radius: 67px;
+
+}
+
+.movposter .movie-link {
+  opacity: 0;
+  transition: .5s ease;
+  display: flex;
+  top: 400px;
+  width: 90%;
+  height: 100%;
+  border-radius: 67px;
+  color: white;
+  font-family: Cairo;
+  font-size: 20px;
+  padding: 200px 200px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Show the "Watch Trailer" button on hover */
+.movposter:hover .movie-link {
+  background-color: #000000;
+  opacity: 0.8;
+  display: flex;
+  top: 100px;
+  width: 900%;
+  height: 100%;
+  border-radius: 67px;
+  color: white;
+  font-family: Cairo;
+  font-size: 15px;
+  padding: 150px 160px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+  /* Right column */
+  .rightcolumn {
+    float: right;
+    width: 60%;
+    padding: 37px;
+    
+  }
+
+.rightcolumn .movlogo {
+    margin-left: 12%;
+    object-fit: cover;
+}
+
+.rightcolumn .tixbutton {
+  width: 70%;
+  top: 00px;
+  left: 400px;
+  font-family: Cairo;
+  font-size: 18px;
+  display: inline-block;
+  padding: 1px;
+  margin: 0% 12%;
+  border-radius: 80px;
+  background: #ffffff;
+  color: #160000;
+  box-shadow: 0px 4px 17px 11px rgba(155, 12, 12, 0.5);
+  text-decoration: none;
+  border-radius: 50px;
+  font-weight: bold;
+  transition: background-color 0.2s;
+  text-align: center;
+}
+
+.rightcolumn .tixbutton:hover {
+  font-family: Cairo;
+  background-color: #000000;
+  color: #f4f4f4;
+}
+
+.rightcolumn .movinfo {
+  width: 70%;
+  margin: 5% 5% 5% 5%;
+  top: 390px;
+  left: 200px;
+  font-family: Cairo;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.rightcolumn .synopsis {
+  margin:0% 5%;
+  top: 200px;
+  left: 558px;
+  font-family: Cairo;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: left;
+  letter-spacing: 0;
+  line-height: normal;
+}
+    
+  /* Clear floats after the columns */
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+
+    header {
+      background-color: #FFF;
+      padding: 12px ;
+      width:auto;
+  }
+  .nav-links {
+      display: none; /* Hide the navigation links on smaller screens */
+      flex-direction: column;
+      background-color: black;
+      position: absolute;
+      top: 100%;
+      left:-100%;
+      width: 80%;
+      padding: 20px;
+      transition: 0.3s ease-in-out;
+  }
+
+  .nav-links.active {
+      left: 0;
+  }
+
+  .nav-links li {
+      margin: 10px 30px;
+  }
+
+  .hamburger-menu {
+      display: block;
+      cursor: pointer;
+  }
+  .cta-button {
+      font-size: 14px;
+      padding: 6px 14px;
+      width: auto;
+  }
+
+  .text-container {
+      display: flex;
+      justify-content: space-between;
+      width: auto;
+    }
+    .text{
+      font-size: 1.15rem;
+      margin-top: var(--space--top);
+      line-height: 1rem;
+      
+      
+  }
+  .footer{
+      flex: 1;
+  }
+  .text p{
+      font-size: 1.15rem;
+      margin-top: var(--space--top);
+      line-height: 1rem;
+  }
+  .hamburger-menu {
+      display: grid;
+  }
+  }
+  
+  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+  @media screen and (max-width: 400px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+
+    .hamburger-menu {
+      display: none; /* Hide the hamburger menu toggle on larger screens */
+    }
+    .logo {
+        margin-left: 50px;
+      }
+      .nav-links {
+        list-style-type: none;
+        display: flex;
+        gap: 20px;
+        font-family: Cairo;
+        margin-right: 30px;
+        
+    }
+  }

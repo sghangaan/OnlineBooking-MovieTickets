@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="shortcut icon" type="x-icon" href="./images/ICON.png">
+    <title>Buy Ticket</title>
+    <link rel="stylesheet" href="NSL ch_1-[1.3] NumTicket.css">
+   
+</head>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src ="./images/LOGO BLACK  University Cinema Booking Ticket.png" alt="logo" width = "198px">
+            </div>
+            <div class ="openMenu"><i class="fa fa-bars"></i></div>
+            <ul class="nav-links">
+                <li><a href="../Homepage/Homepage.html">HOME</a></li>
+                <li><a href= "../Movie Browsing Selection/FrontMoviesPage.html">MOVIES</a></li> 
+                <li><a href="../OBTM_Information/About.html">ABOUT US</a></li>
+                <div class ="openMenu"><i class="fa fa-bars"></i></div>
+                <span class ="icons">
+                </span>
+            </ul>
+        </nav>
+    </header> 
+<body>
+    
+    <div class="row">
+            <div class="rightcolumn">             
+                <div class="availableseat">            
+                <div>
+                    <p id ="seats">Available Seats:</p>
+                </div>
+                <div class="inQuantity">
+                    <label for="input">Number of Ticket/s:</label>
+                    <button class="qtybutton" id="minus">−</button>
+                    <input class="qtyinput" type="number" placeholder="Enter Number of Tickets" id="input" min="0" max="8">
+                    <button class="qtybutton" id="plus">+</button>
+                </div>
+                <br><a class="tixbutton" onclick="storeName()">BUY TICKETS</a><br><br>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <ul class="TCP">
+        <div class="text-container">
+            <div class="left-text"><a href="../OBTM_Information/Termsandconditions.html">Terms and Conditions</a> | <a href="../OBTM_Information/Privacy.html">Privacy</a></div>
+            <div class="right-text">&copy; Copyrights 2023 University Booking Ticket All Rights Reserved.</div>
+            </div>
+            </ul>
+    </footer>
+
+    
+    <script src = "NSL ch_1-[1.3] NumTicket.js"></script>
+</body>
+</html>
+
