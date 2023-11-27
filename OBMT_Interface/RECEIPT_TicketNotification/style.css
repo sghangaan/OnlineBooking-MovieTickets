@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root {
+  --bg-clr: #000000;
+  --white: #fff;
+  --title-clr: #000000;
+  --pry-text-clr: #b3b3b3;
+  --scn-text-clr: #000000;
+  --btn-hvr-clr: #000000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: url('../RECEIPT_TicketNotification/images/Receipt_bg9.png');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    margin: 0;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    line-height: 19px;
+    color: var(--primary-text-clr);
+    padding: 0 40px;
+}
+
+.flex_center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .tc_main{
+    margin-top: 8.7%;
+    width: 800px;
+    max-width: 100%;
+    height: 500px;
+    background: var(--white);
+    text-align: center;
+  }
+  
+  .tc_main .title{
+    color: var(--title-clr);
+    margin-bottom: 5px;
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  
+  .tc_main .tc_content .tc_bottom .title{
+    font-size: 18px;
+    line-height: 23px;
+  }
+  
+  .tc_main .tc_content{
+    width: 100%;
+    margin: 35px 0;
+    height: calc(500px - 150px);
+  }
+  
+  .tc_main .tc_btns{
+    width: 100%;
+    height: 80px;
+    padding: 21px 0;
+    box-shadow: 0 -1px 5px rgba(0,0,0,0.1);
+  }
+  
+  .tc_main .tc_content .tc_top{
+    margin: 0 35px 35px;
+  }
+  
+  .tc_main .tc_content .tc_bottom{
+    padding: 0 35px;
+    overflow: auto;
+    height: calc(100% - 90px);
+  }
+  
+  .tc_main .tc_content .tc_top .icon{
+    font-size: 42px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: var(--title-clr);
+  }
+  
+  .tc_main .tc_content .tc_top .info{
+    color: var(--scn-text-clr);
+  }
+
+  
+ 
+.tixbutton {
+    width: 50%;
+    margin-top: 10x;
+    font-family: Cairo;
+    font-size: 20px;
+    display: inline-block;
+    padding: 1px;
+    margin: 10% 0%;
+    border-radius: 80px;
+    background: #160000; 
+    color: #ffffff;
+    box-shadow: 0px 4px 17px 11px rgba(155, 12, 12, 0.5);
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: bold;
+    transition: background-color 0.2s;
+    text-align: center;
+  }
+  
+  .tixbutton:hover {
+    font-family: Cairo;
+    background-color: #000000;
+    color: #f4f4f4;
+  }
+
+  /* ---- Custom Scrollbar-- */
+
+::-webkit-scrollbar{
+    width: 9px;
+}
+::-webkit-scrollbar-track{
+    background:#000000;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(#ea0101, #e29a9a);
+    border-radius: 26px;
+    height: 12%;
+
+}
