@@ -16,7 +16,8 @@ selectedSeats = JSON.parse(c);
 let univ = "University Cinema Booking";
 let address1 = "College of Computer Studies Rm. 247-B,";
 let address2 = "High School Annex B, New Era University";
-let address = address1+' '+address2;
+let address = address1+' '+ address2;
+let cont = 0;
 
 window.onload = function() {
     var cinemass = "University Cinema Booking"
@@ -40,32 +41,36 @@ document.getElementById("showTime").innerHTML = `Movie:<span class='tabbed-text'
 document.getElementById("seatNumber").innerHTML = `Seat Number:<span class='tabbed-text'>\t\t</span>${selectedSeats}`;
 document.getElementById("number").innerHTML = `Number of Tickets:<span class='tabbed-text'>\t</span>${number}`;
 
-
-
 };
 
+function continueButton(){
+        cont++;
+    if (cont == 1){
+        sendMail();
+    }
+    
+    else if (cont==2){
+        window.location.href ="../RECEIPT_TicketNotification/Thanknotify.html";
+    }
+}
 function sendMail(){
     let title_idd = title;
     let date_idd = date;
-    let showTime_idd = showTime;
+    let showTime_idd = time;
     let cinemas_idd = univ;
     let number_idd = number;
-    let seatNumber_idd = seatNumber;
-
+    let seatNumber_idd = `${selectedSeats}`;
     let name_idd = namee;
-    let address_idd = address;
+    let address_idd = addresss;
     let dateTimeString_idd = dateTimeString;
     let email_idd = email;
     let phone_idd = phone;
-
-
 
     (function(){
       emailjs.init("0Re_17yDpbr-lYDMz"); // Account Public Key
     })();
 
     var params = {
-
         title_id: title_idd,
         date_id: date_idd,
         showTime_id: showTime_idd,
@@ -78,7 +83,6 @@ function sendMail(){
         dateTimeString_id: dateTimeString_idd,
         email_id: email_idd,
         phone_id: phone_idd
-     
     };
 
     var serviceID = "service_s4fx2av"; // Email Service ID
