@@ -39,7 +39,7 @@ body {
   }
   
   .tc_main{
-    margin-top: 8.7%;
+    margin-top: 6%;
     width: 800px;
     max-width: 100%;
     height: 500px;
@@ -49,7 +49,6 @@ body {
   
   .tc_main .title{
     color: var(--title-clr);
-    margin-bottom: 5px;
     font-size: 22px;
     line-height: 30px;
     font-weight: 700;
@@ -60,10 +59,28 @@ body {
     font-size: 18px;
     line-height: 23px;
   }
+
+  .tc_bottom .cinema{
+    text-align: left;
+    color: var(--title-clr);
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+   
+  }
+
+  .tc_bottom .info{
+    text-align: left;
+    color: var(--title-clr);
+    font-size: 19px;
+    line-height: 30px;
+    font-weight: 500;
+   
+  }
   
   .tc_main .tc_content{
     width: 100%;
-    margin: 35px 0;
+    margin: 20px 0;
     height: calc(500px - 150px);
   }
   
@@ -75,13 +92,13 @@ body {
   }
   
   .tc_main .tc_content .tc_top{
-    margin: 0 35px 35px;
+    margin: 0 ;
   }
   
   .tc_main .tc_content .tc_bottom{
     padding: 0 35px;
     overflow: auto;
-    height: calc(100% - 90px);
+    height: calc(100% - 70px);
   }
   
   .tc_main .tc_content .tc_top .icon{
@@ -95,6 +112,9 @@ body {
     color: var(--scn-text-clr);
   }
 
+  .tabbed-text {
+    white-space: pre;
+}
   
  
 .tixbutton {

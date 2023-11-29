@@ -21,31 +21,6 @@ function saveDate1(){
     }
     Object.assign(targetButton.style,styles)
 
-    var targetButton1 = document.getElementById("tues")
-    var styles1 ={
-        margin: '0 10px', /* Adjust the margin as needed */
-        padding: '10px 20px', /* Adjust the padding as needed */
-        backgroundColor: '#565555',
-        color: 'white',
-        border: 'none',
-        borderRadius: '13px',
-        cursor: 'pointer',
-        fontWeight: '400',
-    }
-    Object.assign(targetButton1.style,styles1)
-
-    var targetButton2 = document.getElementById("thurs")
-    var styles2 ={
-        margin: '0 10px', /* Adjust the margin as needed */
-        padding: '10px 20px', /* Adjust the padding as needed */
-        backgroundColor: '#565555',
-        color: 'white',
-        border: 'none',
-        borderRadius: '13px',
-        cursor: 'pointer',
-        fontWeight: '400',
-    }
-    Object.assign(targetButton2.style,styles2)
 }
 
 function saveDate2(){
@@ -53,19 +28,6 @@ function saveDate2(){
     date = "TUESDAY - 11/14/23";
     localStorage.setItem('date',date);
     console.log(date);
-
-    var targetButton1 = document.getElementById("mon")
-    var styles1 ={
-        margin: '0 10px', /* Adjust the margin as needed */
-        padding: '10px 20px', /* Adjust the padding as needed */
-        backgroundColor: '#565555',
-        color: 'white',
-        border: 'none',
-        borderRadius: '13px',
-        cursor: 'pointer',
-        fontWeight: '400',
-    }
-    Object.assign(targetButton1.style,styles1)
 
     var targetButton = document.getElementById("tues")
     var styles ={
@@ -81,18 +43,6 @@ function saveDate2(){
     }
     Object.assign(targetButton.style,styles)
 
-    var targetButton2 = document.getElementById("thurs")
-    var styles2 ={
-        margin: '0 10px', /* Adjust the margin as needed */
-        padding: '10px 20px', /* Adjust the padding as needed */
-        backgroundColor: '#565555',
-        color: 'white',
-        border: 'none',
-        borderRadius: '13px',
-        cursor: 'pointer',
-        fontWeight: '400',
-    }
-    Object.assign(targetButton2.style,styles2)
 
 }
 
@@ -101,34 +51,6 @@ function saveDate3(){
     date = "THURSDAY - 11/15/23";
     localStorage.setItem('date',date);
     console.log(date);
-
-    var targetButton1 = document.getElementById("mon")
-    var styles1 ={
-        margin: '0 10px', /* Adjust the margin as needed */
-        padding: '10px 20px', /* Adjust the padding as needed */
-        backgroundColor: '#565555',
-        color: 'white',
-        border: 'none',
-        borderRadius: '13px',
-        cursor: 'pointer',
-        fontWeight: '400',
-        
-    }
-    Object.assign(targetButton1.style,styles1)
-
-    var targetButton2 = document.getElementById("tues")
-    var styles2 ={
-        margin: '0 10px', /* Adjust the margin as needed */
-        padding: '10px 20px', /* Adjust the padding as needed */
-        backgroundColor: '#565555',
-        color: 'white',
-        border: 'none',
-        borderRadius: '13px',
-        cursor: 'pointer',
-        fontWeight: '400',
-
-    }
-    Object.assign(targetButton2.style,styles2)
 
     var targetButton = document.getElementById("thurs")
     var styles ={
@@ -208,3 +130,20 @@ function saveTime3(){
     }
     Object.assign(targetButton.style,styles)
 }
+
+function resetDate(){
+
+    var targetButton = document.getElementById("mon").style.backgroundColor = 'white';
+
+    
+    var targetButton1 = document.getElementById("tues")
+    
+    
+    var targetButton2 = document.getElementById("thurs")
+  
+
+  
+}
+
+var myLink = document.getElementById('resetDate');
+myLink.onclick = resetDate;

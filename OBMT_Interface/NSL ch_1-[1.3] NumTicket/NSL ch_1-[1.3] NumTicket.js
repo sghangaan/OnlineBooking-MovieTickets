@@ -32,6 +32,7 @@ const minusButton = document.getElementById('minus');
 function storeName() {
     // Get the user's name from the input field
     var b = document.getElementById("input").value;
+    var moviee = "Blue Beetle";
     
     if (b==0){
         alert("Please Enter the Desired Quantity of Tickets")
@@ -40,6 +41,7 @@ function storeName() {
     else{
     // Store the user's name in localStorage
     localStorage.setItem("b", b);
+    localStorage.setItem("moviee", moviee);
     window.location.href = "../FrameReservation/FrameReservation.html";
     }
 }

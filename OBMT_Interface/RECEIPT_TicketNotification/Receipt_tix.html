@@ -9,6 +9,8 @@
    <link rel="stylesheet"href="style.css">
    <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript"> </script>
 </head>
 
 <body>
@@ -22,56 +24,48 @@
             <i class="fa-solid fa-ticket"></i>
           </div>
           <div class="title">
-            <p>Terms and Conditions of Use for </p> <p>University Cinema Website</p>
-          </div>
-          <div class="info">
-            These Terms and Conditions govern your use of the University Cinema Website. By accessing or using the Website, you agree to be bound by these Terms. If you do not agree with these Terms, please refrain from using the Website.
+            <p>------------------------------------------------------------------------------------</p> 
+            <p>MOVIE TICKET RECEIPT</p>
+            <p>------------------------------------------------------------------------------------</p> 
           </div>
         </div>
         <div class="tc_bottom">
-          <div class="title">
-            <p>This Agreement contains the complete terms and conditions <br> that apply to your participation in our site.</p>
+          <div class="cinema">
+            <p id = "cinemas"><span class="tabbed-text"></span></p>
+            <p id = "add"><span class="tabbed-text"></span></p>
+            <p id = "date"><span class="tabbed-text"></span></p>
           </div>
           <div class="info">
-            <p class = "left"><br><b>1.	Acceptance of Terms</b><br>
-              By accessing or using the Website, you acknowledge that you have read, understood, and agree to be bound by these Terms, as well as our Privacy Policy. These Terms constitute a legally binding agreement between you and the university.
-            </p>
-            <p><b>2.	Use of the Website</b><br>
-              2.1.	Access and Eligibility: You must be a bonafide student or staff in your university and at least 16 years old to use the Website. Users below 16 years old or who intend to book for a movie above their age rating must be accompanied by a parent or guardian. If you are accessing the Website on behalf of an organization or entity, you must represent that you have the authority to do so.
-              </p>
-            <p>2.2.	Intellectual Property: All content on the Website, including but not limited to text, images, logos, videos, and other materials, are owned by the creators of the website, unless stated otherwise. You may not use, reproduce, or distribute any content from the Website without prior written consent.</p>
-            <p><b>3.	Registration and Accounts</b><br>
-              Accessing the website will not require an account and registry. However, you agree to provide accurate and up-to-date information when submitting credentials upon booking tickets.
-            </p>
-            <p><b>4.	 User Conduct</b><br>
-              You agree not to engage in any of the following activities while using the Website:<br>
-              -	Violating any applicable laws or regulations.<br>
-              -	Posting or transmitting any content that is harmful, abusive, obscene, or offensive.<br>
-              -	Attempting to interfere with the proper functioning of the Website.<br>
-              -	Uploading or transmitting viruses, malware, or any other malicious code.
-              </p>
-            <p><b>5.	Ticket Purchases</b><br>
-              5.1.	 Ticket Sales: The Website may allow you to purchase tickets for cinema events. All ticket sales are final, and no refunds will be issued unless specified otherwise.</p>
-            <p>5.2.	Reservations: We reserve the right to limit the number of tickets that can be purchased for a single event and may cancel reservations or purchases that violate this policy.</p>
-            
-            <p><b>6.	Limitation of Liability</b><br>
-              The university shall not be liable for any direct, indirect, incidental, special, or consequential damages arising out of or in any way connected with your use of the Website.
-            </p>
-
-            <p><b>7.	Termination</b><br>
-              The university reserves the right to terminate or suspend your access to the Website at its discretion and without notice.
-            </p>
-            <p><b>8.	Changes to Terms</b><br>
-              We may update these Terms from time to time. You are responsible for reviewing these Terms periodically to stay informed of any changes.
-            </p>
-            <p><b>These Terms and Conditions were last updated on November 14, 2023.</b></p>
-            <p><b>9. Contact Information</b><br>
-              If you have any questions or concerns about these terms and conditions, please contact the creators of the website.
-            </p>
+            <p><b>-------------------------------------------------------------------------------------------------</b></p>
+           <p><b>User Information:</b></p>
+            <p id = "name"></p>
+            <p id = "email"></p>
+            <p id = "phone"></p>
+            <p id = "addre"></p>
+            <p><b>-------------------------------------------------------------------------------------------------</b></p>
+            <p><b>Ticket Information:</b><br></p>
+            <p id = "mov"></p>
+            <p id ="showTime"></p>
+            <p id = "seatNumber"></p>
+            <p id = "number"></p>
+          </div>
+          <div class = "info1">
+            <p><b>---------------------------------------------------------------------------------------------</b></p><br>
+            <p><b>THANK YOU FOR CHOOSING UNIVERSITY CINEMA!</b><br> <b>WE HOPE YOU HAVE AN AMAZING MOVIE EXPERIENCE!</b></p>
+            <p><b>WE APPRECIATE YOUR SUPPORT AND HOPE YOU CARRY <br>THE MAGIC OF THE BIG SCREEN WITH YOU.</b><br>🥤📣🎞📽🎬🍿</p><br>
+            <p><b>---------------------------------------------------------------------------------------------</b></p><br>
+            <p>For any inquiries or assistance, please contact our customer service<br>at adm.umbt2023@gmail.com<br></p><br>
+            <p><b>ENJOY THE SHOW AND HAVE A GREAT DAY!</b></p><br>
+            <p><b>---------------------------------------------------------------------------------------------</b></p>
           </div>
         </div>
       </div>
         <br><a href="" class="tixbutton">Continue</a><br><br>
+        <button onclick = "sendMail();">Send</button>
     </div>
   </section>
+  
+  <script src = "./RECEIPT_TicketNotification.js"></script>
+ 
 </body>
+</html>
