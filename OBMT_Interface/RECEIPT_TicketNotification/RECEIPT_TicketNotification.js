@@ -67,7 +67,7 @@ function sendMail(){
     let phone_idd = phone;
 
     (function(){
-      emailjs.init("0Re_17yDpbr-lYDMz"); // Account Public Key
+      emailjs.init("i1RjWXwwdpG8uCfND"); // Account Public Key
     })();
 
     var params = {
@@ -87,6 +87,7 @@ function sendMail(){
 
     var serviceID = "service_s4fx2av"; // Email Service ID
     var templateID = "template_2volnam"; // Email Template ID
+    var templateID = "template_ydz9t2i"; // Email Template ID
 
     emailjs.send(serviceID, templateID, params)
     .then( res => {
