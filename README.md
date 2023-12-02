@@ -49,18 +49,18 @@ Through this process, the developers have identified the specific requirements n
 
 The website requirements and functions were attained through analysis of existing systems related to the problem at hand. The process was divided into four modules: select a movie, select timings, select a quantity and seat number, and notification to the user and admin. 
 
-2.1.	Module 1: Select a movie
+- **Module 1: Select a movie**
 
 This module includes the development of the landing page, the browse movie page, and the movie page. The landing page serves as the introductory that provides information about the website. This page includes the logo and the description of the website, as well as the main button that leads the user to the browse movie page.
 
 The browse movie page serves the main function of the module. It is the home page for the movies, where customers can browse and select through a wide range of movie offerings. This page includes a quick preview section, a movie slider selection section for the latest and the upcoming movies, and a featured film section. This will entice the user with a variety of movie offerings and search through each one. Each movie page contains the following information that will help the customer select the movie they want: movie title, poster, trailer, synopsis, director, cast, genre, run time, rating
 The footer of the page contains the information and contact of the website developers or the administrators of the website, terms and conditions, and privacy policies. These elements are vital and will provide any assistance that the customers can refer to.
 
-2.2.	Module 2: Select timings
+- **Module 2: Select timings**
 
 This module includes the development of the select timings page. This is the page where the customers will be directed after clicking the “Buy Tickets” button on the movie page. Customers will be able to see the available days and time schedules for their chosen movie.
 
-2.3.	Module 3: Select a quantity and seat number
+- **Module 3: Select a quantity and seat number**
 
 This module includes the development of the movie booking pages, such as the number of tickets page, the seat reservation page, and the customer details form page. This group of pages is where the customers will specify the number of tickets they want to purchase, select their preferred seats, and provide their information.
 
@@ -70,29 +70,30 @@ After selecting the number of tickets, the customers will directed to the seat r
 
 After selecting their seats, the customers will be directed to the customer details form page where they are required to input their details, such as their email address, name, phone number, address, and country. On this page, they are provided with the summary of their booking and the terms and conditions checkbox before they confirm their reservation. With this, the customers will be able to go back and modify their selections if any error arises.
 
-2.4.	Module 4: Notification to user and admin
+- **Module 4: Notification to user and admin**
 
 This module includes the development of a notification system for both users and administrators. This is essential to ensure a smooth and seamless booking experience for both sides. 
 
  
-# ANALYSIS DIAGRAMS
+# Analysis Diagrams
 
 This pivotal chapter encapsulates the meticulous exploration of essential components crucial for the development and refinement of the University Cinema website. Within this section, two pivotal diagrams take center stage, each offering nuanced insights into distinct facets of the platform.
 
-**Flowchart of the Entire Website**
+# **Flowchart of the Entire Website**
 
-![image](https://github.com/SG-Hangaan/OnlineBooking-MovieTickets/assets/127215110/edb597e5-1357-4242-82b6-108593b44fcb)
-
-
-Figure 1. Flowchart of the entire Website
+<p align="center">
+  <img src="https://github.com/SG-Hangaan/OnlineBooking-MovieTickets/assets/127215110/edb597e5-1357-4242-82b6-108593b44fcb"/>
+ Figure 1. Flowchart of the entire Website
+</p>
 
 The flowchart meticulously dissects the user's journey within the website, capturing each nuanced step from the initial landing to the finalization of a ticket reservation. This visual representation acts as a scholarly guide, allowing for a detailed exploration of decision points, user interactions, and the logical flow of the system.
 
-**Entity Relationship Diagram (ERD)**
+# **Entity Relationship Diagram (ERD)**
 
-![image](https://github.com/SG-Hangaan/OnlineBooking-MovieTickets/assets/127215110/844667a1-22f0-4a4e-af01-4e8f41f0dcbc)
-
-Figure 2. Entity Relationship Diagram (ERD) of the entire website
+<p align="center">
+  <img src="https://github.com/SG-Hangaan/OnlineBooking-MovieTickets/assets/127215110/844667a1-22f0-4a4e-af01-4e8f41f0dcbc"/>
+ Figure 2. Entity Relationship Diagram (ERD) of the entire website
+</p>
 
 In parallel, the Entity Relationship Diagram (ERD) ventures into the underlying database architecture of the University Cinema website. This scholarly diagram elucidates the entities and their relationships, providing a comprehensive view of how data is structured and interconnected.
 
