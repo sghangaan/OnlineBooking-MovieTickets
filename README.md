@@ -61,42 +61,41 @@ Through this process, the developers have identified the specific requirements n
 ## Website Requirements
 <a name="website-requirements"></a>
 
-The website requirements and functions were attained through analysis of existing systems related to the problem at hand. The process was divided into four modules: select a movie, select timings, select a quantity and seat number, and notification to the user and admin. 
-
+The website requirements and functions were attained through analysis of existing systems related to the problem at hand. The process was divided into four modules: select a movie, select timings, select a quantity and seat number, and notification to the user and admin.   <br>
 
  **<li>Module 1: Select a movie** <br>
 <a name="module1-select-a-movie"></a>
 ----------------------------------------------------------------------------------------------------------
-<ul> This module includes the development of the landing page, the browse movie page, and the movie page. The landing page serves as the introductory that provides information about the website. This page includes the logo and the description of the website, as well as the main button that leads the user to the browse movie page.
+<ul> This module includes the development of the landing page, the browse movie page, and the movie page. The landing page serves as the introductory that provides information about the website. This page includes the logo and the description of the website, as well as the main button that leads the user to the browse movie page.  <br>
 
 The browse movie page serves the main function of the module. It is the home page for the movies, where customers can browse and select through a wide range of movie offerings. This page includes a quick preview section, a movie slider selection section for the latest and the upcoming movies, and a featured film section. This will entice the user with a variety of movie offerings and search through each one. Each movie page contains the following information that will help the customer select the movie they want: movie title, poster, trailer, synopsis, director, cast, genre, run time, rating
-The footer of the page contains the information and contact of the website developers or the administrators of the website, terms and conditions, and privacy policies. These elements are vital and will provide any assistance that the customers can refer to. </ul> 
+The footer of the page contains the information and contact of the website developers or the administrators of the website, terms and conditions, and privacy policies. These elements are vital and will provide any assistance that the customers can refer to. </ul>  <br>
 
 **<li>Module 2: Select timings**<br>
 <a name="module2-select-timing"></a>
 ----------------------------------------------------------------------------------------------------------
-<ul> This module includes the development of the select timings page. This is the page where the customers will be directed after clicking the “Buy Tickets” button on the movie page. Customers will be able to see the available days and time schedules for their chosen movie. </ul> 
+<ul> This module includes the development of the select timings page. This is the page where the customers will be directed after clicking the “Buy Tickets” button on the movie page. Customers will be able to see the available days and time schedules for their chosen movie. </ul>   <br>
 
 **<li>Module 3: Select a quantity and seat number**<br>
 <a name="module3-select-a-quantity-and-seat-number"></a>
 ----------------------------------------------------------------------------------------------------------
-<ul> This module includes the development of the movie booking pages, such as the number of tickets page, the seat reservation page, and the customer details form page. This group of pages is where the customers will specify the number of tickets they want to purchase, select their preferred seats, and provide their information.
+<ul> This module includes the development of the movie booking pages, such as the number of tickets page, the seat reservation page, and the customer details form page. This group of pages is where the customers will specify the number of tickets they want to purchase, select their preferred seats, and provide their information.  <br>
 
-After selecting the movie timings, the customers will be directed to the number of tickets page. This page displays their selected timings and includes a quantity selector for adjusting the number of tickets they will purchase.
+After selecting the movie timings, the customers will be directed to the number of tickets page. This page displays their selected timings and includes a quantity selector for adjusting the number of tickets they will purchase.  <br>
 
-After selecting the number of tickets, the customers will directed to the seat reservation page. On this page, they will be able to view the seating map of the cinema, distinguishing the reserved and the available seats. This visual and interactive approach prevents booking occupied seats and reservation mismanagement. Customers can click or tap on seats, and visual cues like color changes and animations indicate their selections. Furthermore, this seating map allows zooming for clarity in larger cinemas with multiple seat choices. They also have the option to reset their selected seats automatically. 
+After selecting the number of tickets, the customers will directed to the seat reservation page. On this page, they will be able to view the seating map of the cinema, distinguishing the reserved and the available seats. This visual and interactive approach prevents booking occupied seats and reservation mismanagement. Customers can click or tap on seats, and visual cues like color changes and animations indicate their selections. Furthermore, this seating map allows zooming for clarity in larger cinemas with multiple seat choices. They also have the option to reset their selected seats automatically.   <br>
 
-After selecting their seats, the customers will be directed to the customer details form page where they are required to input their details, such as their email address, name, phone number, address, and country. On this page, they are provided with the summary of their booking and the terms and conditions checkbox before they confirm their reservation. With this, the customers will be able to go back and modify their selections if any error arises. </ul> 
+After selecting their seats, the customers will be directed to the customer details form page where they are required to input their details, such as their email address, name, phone number, address, and country. On this page, they are provided with the summary of their booking and the terms and conditions checkbox before they confirm their reservation. With this, the customers will be able to go back and modify their selections if any error arises. </ul>   <br>
 
 **<li>Module 4: Notification to user and admin**<br>
 <a name="module4-notification-to-user-and-admin"></a>
 ----------------------------------------------------------------------------------------------------------
-<ul> This module includes the development of a notification system for both users and administrators. This is essential to ensure a smooth and seamless booking experience for both sides.  </ul> 
+<ul> This module includes the development of a notification system for both users and administrators. This is essential to ensure a smooth and seamless booking experience for both sides.  </ul>   <br>
 
 ## Analysis Diagrams
 <a name="analysis-diagrams"></a>
 
-This pivotal chapter encapsulates the meticulous exploration of essential components crucial for the development and refinement of the University Cinema website. Within this section, two pivotal diagrams take center stage, each offering nuanced insights into distinct facets of the platform.
+This pivotal chapter encapsulates the meticulous exploration of essential components crucial for the development and refinement of the University Cinema website. Within this section, two pivotal diagrams take center stage, each offering nuanced insights into distinct facets of the platform. <br>
 
 ## **Flowchart of the Entire Website**
 <a name="flowchart-of-the-entire-website"></a>
@@ -106,7 +105,7 @@ This pivotal chapter encapsulates the meticulous exploration of essential compon
  Figure 1. Flowchart of the entire Website
 </p>
 
-The flowchart meticulously dissects the user's journey within the website, capturing each nuanced step from the initial landing to the finalization of a ticket reservation. This visual representation acts as a scholarly guide, allowing for a detailed exploration of decision points, user interactions, and the logical flow of the system.
+The flowchart meticulously dissects the user's journey within the website, capturing each nuanced step from the initial landing to the finalization of a ticket reservation. This visual representation acts as a scholarly guide, allowing for a detailed exploration of decision points, user interactions, and the logical flow of the system. <br>
 
 ## **Entity Relationship Diagram (ERD)**
 <a name="entity-relationship-diagram(ERD)"></a>
@@ -116,7 +115,7 @@ The flowchart meticulously dissects the user's journey within the website, captu
    <br> Figure 2. Entity Relationship Diagram (ERD) of the entire website
 </p>
 
-In parallel, the Entity Relationship Diagram (ERD) ventures into the underlying database architecture of the University Cinema website. This scholarly diagram elucidates the entities and their relationships, providing a comprehensive view of how data is structured and interconnected.
+In parallel, the Entity Relationship Diagram (ERD) ventures into the underlying database architecture of the University Cinema website. This scholarly diagram elucidates the entities and their relationships, providing a comprehensive view of how data is structured and interconnected.  <br>
 
 
 
