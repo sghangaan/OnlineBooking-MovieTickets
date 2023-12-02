@@ -1,4 +1,9 @@
 
+## University Cinema Movies
+<a name="university-Cinema-Movies"></a>
+User Interface for Booking Movie Tickets.
+
+
 ## Table of Contents
 
 - [University Cinema Movies](#university-Cinema-Movies)
@@ -6,20 +11,15 @@
 - [Objective](#objective)
 - [Design Criteria](#design-criteria)
 - [Analysis of Existing Systems](#analysis-of-existing-systems)
-- [Website Requirements](#website-requirements)
-- [Module 1: Select a movie](#module1-select-a-movie)
-- [Module 2: Select timings](#module2-select-timing)
-- [Module 3: Select a quantity and seat number](#module3-select-a-quantity-and-seat-number)
-- [Module 4: Notification to user and admin](#module4-notification-to-user-and-admin)
+- [Website Requirements](#website-requirements) <br>
+&nbsp;&nbsp;&nbsp;&nbsp; - [Module 1: Select a movie](#module1-select-a-movie)  <br>
+&nbsp;&nbsp;&nbsp;&nbsp; - [Module 2: Select timings](#module2-select-timing) <br>
+&nbsp;&nbsp;&nbsp;&nbsp; - [Module 3: Select a quantity and seat number](#module3-select-a-quantity-and-seat-number) <br>
+&nbsp;&nbsp;&nbsp;&nbsp; - [Module 4: Notification to user and admin](#module4-notification-to-user-and-admin) <br>
 - [Website Requirements](#website-requirements)
 - [Analysis Diagrams](#analysis-diagrams)
 - [Flowchart of the Entire Website](#flowchart-of-the-entire-website)
 - [Entity Relationship Diagram (ERD)](#entity-relationship-diagram(ERD))
-
-
-## University Cinema Movies
-<a name="university-Cinema-Movies"></a>
-User Interface for Booking Movie Tickets.
 
 ----------------------------------------------------------------------------------------------------------
 
