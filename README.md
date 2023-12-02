@@ -1,8 +1,8 @@
 
 ## Table of Contents
 
-<li> [University Cinema Movies](#university Cinema Movies)
-<li> [Potential Users](#potential Users)
+<li> [University Cinema Movies](#university-cinema-movies)
+<li> [Potential Users](#potential-users)
 <li> [Objective](#objective)
 <li> [Design Criteria](#design Criteria)
 <li> [Analysis of Existing Systems](#analysis of Existing Systems)
@@ -26,7 +26,9 @@ User Interface for Booking Movie Tickets.
 This University Cinema aims to provide a seamless ticketing experience, accessible anytime and anywhere. It aims to overcome the common challenges associated with onsite ticket reservations, ensuring a hassle-free process and enhancing the overall user and client experience. Specifically tailored for universities, this project offers an efficient, enhanced, and accessible way for academic institutions to facilitate ticket reservations for campus movie events and leverage an expansive reach of online channels and platforms for campus cinephiles.
 
 
-## Potential Users
+## Potential Users 
+
+
 
 <li> The two expected users on the website include: <br>
 
