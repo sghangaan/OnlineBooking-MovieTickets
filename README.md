@@ -1,10 +1,24 @@
 
-# Table of Contents
+## Table of Contents
+
+- [University Cinema Movies](#university Cinema Movies)
+<li> [Potential Users](#potential Users)
+<li> [Objective](#objective)
+<li> [Design Criteria](#design Criteria)
+<li> [Analysis of Existing Systems](#analysis of Existing Systems)
+<li> [](#)
+<li> [](#)
+<li> [](#)
+<li> [](#)
+<li> [Website Requirements](#website Requirements)
+<li> [Analysis Diagrams](#analysis Diagrams)
+<li> [](#)
+<li> [](#)
 
 
 
 
-# University Cinema Movies
+## University Cinema Movies
 User Interface for Booking Movie Tickets.
 
 ----------------------------------------------------------------------------------------------------------
@@ -12,50 +26,50 @@ User Interface for Booking Movie Tickets.
 This University Cinema aims to provide a seamless ticketing experience, accessible anytime and anywhere. It aims to overcome the common challenges associated with onsite ticket reservations, ensuring a hassle-free process and enhancing the overall user and client experience. Specifically tailored for universities, this project offers an efficient, enhanced, and accessible way for academic institutions to facilitate ticket reservations for campus movie events and leverage an expansive reach of online channels and platforms for campus cinephiles.
 
 
-# Potential Users
+## Potential Users
 
-<li> <a href=""> The two expected users on the website include: </a> <br>
+<li> The two expected users on the website include: <br>
 
  **School administrators.** They are the primary users who will require an efficient and centralized system to manage ticket reservations and communication for upcoming movie events. They are responsible for organizing these events, handling reservations, and ensuring effective communication with the customers. <br>
 
 **Customers.** They are integral components of the university (students, professors, and other staff) who are welcome to reserve tickets on the website. Everyone is encouraged; to create a diverse audience that participates in the events and makes reservations through the designed system.  <br>
 
-# Objective
+## Objective
 
 This website aims to offer customers a seamless movie ticketing service that is accessible anytime and anywhere. This will minimize the number of issues from onsite bookings such as overcrowding in university halls and mismanagement of reservations. With this website, they can easily browse through and make their selections at their own pace and space. Other than that, this aims to reduce the need for staff for campus events by facilitating online and automated bookings, while simultaneously boosting film promotion through internet channels as well. <br>
 
 With this, the University Cinema shall provide up-to-date information about the latest movie showtimes and screenings, allowing the university community to stay informed and plan their entertainment experiences effectively.  <br>
 
-# Design Criteria
+## Design Criteria
 
 The user interface design is evaluated based on user-friendliness that doesn’t sacrifice visual appeal. Hence, the developers drew inspiration from known streaming services, such as Netflix, Disney+, HBO Max, and more, that utilize a minimal but functional design approach. With this, the university community with age differences will be familiar with navigating through the website. Minimalism has proven valuable for everyone, especially those in need of special assistance, who seek ease of use and navigation when booking tickets online.  <br>
 
 The programming language used in this project includes HTML, CSS, and Javascript. They are proven fundamental in web development and work seamlessly with each other to cater to the project’s objectives. With this, the developers will be able to build the structure of each page that will adapt to any device, style and present the website’s branding from color to layout, and create a responsive and interactive website that enhances the user and client experience. <br>
 
 
-#  Analysis of Existing Systems
+##  Analysis of Existing Systems
 
 The requirements needed were carefully examined and experimented with different websites that provide similar services to the project. This included existing cinema booking websites such as SM Cinemas (https://www.smcinema.com/), Ayala Malls Cinemas (http://www.sureseats.com/), Robinsons Movieworld, and (https://www.robinsonsmovieworld.com/). Projects of other developers were scouted and studied as well, such as phpjabbers’ website (https://www.phpjabbers.com/cinema-booking-system/). <br>
 
 Through this process, the developers have identified the specific requirements necessary for each step to function correctly. The ultimate objective is to develop a website that is easy for users to navigate, visually appealing, and operates efficiently, making it the go-to choice for everyone. <br>
 
 
-# Website Requirements
+## Website Requirements
 
 The website requirements and functions were attained through analysis of existing systems related to the problem at hand. The process was divided into four modules: select a movie, select timings, select a quantity and seat number, and notification to the user and admin. 
 
-- **Module 1: Select a movie**
+**<li>Module 1: Select a movie**
 
 This module includes the development of the landing page, the browse movie page, and the movie page. The landing page serves as the introductory that provides information about the website. This page includes the logo and the description of the website, as well as the main button that leads the user to the browse movie page.
 
 The browse movie page serves the main function of the module. It is the home page for the movies, where customers can browse and select through a wide range of movie offerings. This page includes a quick preview section, a movie slider selection section for the latest and the upcoming movies, and a featured film section. This will entice the user with a variety of movie offerings and search through each one. Each movie page contains the following information that will help the customer select the movie they want: movie title, poster, trailer, synopsis, director, cast, genre, run time, rating
 The footer of the page contains the information and contact of the website developers or the administrators of the website, terms and conditions, and privacy policies. These elements are vital and will provide any assistance that the customers can refer to.
 
-- **Module 2: Select timings**
+**<li>Module 2: Select timings**
 
 This module includes the development of the select timings page. This is the page where the customers will be directed after clicking the “Buy Tickets” button on the movie page. Customers will be able to see the available days and time schedules for their chosen movie.
 
-- **Module 3: Select a quantity and seat number**
+**<li>Module 3: Select a quantity and seat number**
 
 This module includes the development of the movie booking pages, such as the number of tickets page, the seat reservation page, and the customer details form page. This group of pages is where the customers will specify the number of tickets they want to purchase, select their preferred seats, and provide their information.
 
@@ -65,16 +79,16 @@ After selecting the number of tickets, the customers will directed to the seat r
 
 After selecting their seats, the customers will be directed to the customer details form page where they are required to input their details, such as their email address, name, phone number, address, and country. On this page, they are provided with the summary of their booking and the terms and conditions checkbox before they confirm their reservation. With this, the customers will be able to go back and modify their selections if any error arises.
 
-- **Module 4: Notification to user and admin**
+**<li>Module 4: Notification to user and admin**
 
 This module includes the development of a notification system for both users and administrators. This is essential to ensure a smooth and seamless booking experience for both sides. 
 
  
-# Analysis Diagrams
+## Analysis Diagrams
 
 This pivotal chapter encapsulates the meticulous exploration of essential components crucial for the development and refinement of the University Cinema website. Within this section, two pivotal diagrams take center stage, each offering nuanced insights into distinct facets of the platform.
 
-# **Flowchart of the Entire Website**
+## **Flowchart of the Entire Website**
 
 <p align="center">
   <img src="https://github.com/SG-Hangaan/OnlineBooking-MovieTickets/assets/127215110/edb597e5-1357-4242-82b6-108593b44fcb"/>
@@ -83,7 +97,7 @@ This pivotal chapter encapsulates the meticulous exploration of essential compon
 
 The flowchart meticulously dissects the user's journey within the website, capturing each nuanced step from the initial landing to the finalization of a ticket reservation. This visual representation acts as a scholarly guide, allowing for a detailed exploration of decision points, user interactions, and the logical flow of the system.
 
-# **Entity Relationship Diagram (ERD)**
+## **Entity Relationship Diagram (ERD)**
 
 <p align="center">
   <img src="https://github.com/SG-Hangaan/OnlineBooking-MovieTickets/assets/127215110/844667a1-22f0-4a4e-af01-4e8f41f0dcbc"/>
