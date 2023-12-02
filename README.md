@@ -1,7 +1,7 @@
 
 ## Table of Contents
 
-- [University Cinema Movies](#university Cinema Movies)
+<li> [University Cinema Movies](#university Cinema Movies)
 <li> [Potential Users](#potential Users)
 <li> [Objective](#objective)
 <li> [Design Criteria](#design Criteria)
