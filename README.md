@@ -29,33 +29,33 @@ This University Cinema aims to provide a seamless ticketing experience, accessib
 ## Potential Users 
 <a name="potential-users"></a>
 
-<li> The two expected users on the website include: <br>
+The two expected users on the website include: <br> <ul>
 
-**School administrators.** They are the primary users who will require an efficient and centralized system to manage ticket reservations and communication for upcoming movie events. They are responsible for organizing these events, handling reservations, and ensuring effective communication with the customers. <br>
+**<li>School administrators**. They are the primary users who will require an efficient and centralized system to manage ticket reservations and communication for upcoming movie events. They are responsible for organizing these events, handling reservations, and ensuring effective communication with the customers. <br>
 
-**Customers.** They are integral components of the university (students, professors, and other staff) who are welcome to reserve tickets on the website. Everyone is encouraged; to create a diverse audience that participates in the events and makes reservations through the designed system.  <br>
+**<li>Customers.** They are integral components of the university (students, professors, and other staff) who are welcome to reserve tickets on the website. Everyone is encouraged; to create a diverse audience that participates in the events and makes reservations through the designed system.  </ul> <br>
 
 ## Objective
 <a name="objective"></a>
 
-This website aims to offer customers a seamless movie ticketing service that is accessible anytime and anywhere. This will minimize the number of issues from onsite bookings such as overcrowding in university halls and mismanagement of reservations. With this website, they can easily browse through and make their selections at their own pace and space. Other than that, this aims to reduce the need for staff for campus events by facilitating online and automated bookings, while simultaneously boosting film promotion through internet channels as well. <br>
-
-With this, the University Cinema shall provide up-to-date information about the latest movie showtimes and screenings, allowing the university community to stay informed and plan their entertainment experiences effectively.  <br>
+<ul> This website aims to offer customers a seamless movie ticketing service that is accessible anytime and anywhere. This will minimize the number of issues from onsite bookings such as overcrowding in university halls and mismanagement of reservations. With this website, they can easily browse through and make their selections at their own pace and space. Other than that, this aims to reduce the need for staff for campus events by facilitating online and automated bookings, while simultaneously boosting film promotion through internet channels as well. <br>
+ 
+<br> With this, the University Cinema shall provide up-to-date information about the latest movie showtimes and screenings, allowing the university community to stay informed and plan their entertainment experiences effectively. <br> </ul> 
 
 ## Design Criteria
 <a name="design-criteria"></a>
 
-The user interface design is evaluated based on user-friendliness that doesn’t sacrifice visual appeal. Hence, the developers drew inspiration from known streaming services, such as Netflix, Disney+, HBO Max, and more, that utilize a minimal but functional design approach. With this, the university community with age differences will be familiar with navigating through the website. Minimalism has proven valuable for everyone, especially those in need of special assistance, who seek ease of use and navigation when booking tickets online.  <br>
-
-The programming language used in this project includes HTML, CSS, and Javascript. They are proven fundamental in web development and work seamlessly with each other to cater to the project’s objectives. With this, the developers will be able to build the structure of each page that will adapt to any device, style and present the website’s branding from color to layout, and create a responsive and interactive website that enhances the user and client experience. <br>
+<ul> The user interface design is evaluated based on user-friendliness that doesn’t sacrifice visual appeal. Hence, the developers drew inspiration from known streaming services, such as Netflix, Disney+, HBO Max, and more, that utilize a minimal but functional design approach. With this, the university community with age differences will be familiar with navigating through the website. Minimalism has proven valuable for everyone, especially those in need of special assistance, who seek ease of use and navigation when booking tickets online.  <br>
+<br>
+The programming language used in this project includes HTML, CSS, and Javascript. They are proven fundamental in web development and work seamlessly with each other to cater to the project’s objectives. With this, the developers will be able to build the structure of each page that will adapt to any device, style and present the website’s branding from color to layout, and create a responsive and interactive website that enhances the user and client experience. <br> </ul> 
 
 
 ## Analysis of Existing Systems
 <a name="analysis-of-existing-systems"></a>
 
-The requirements needed were carefully examined and experimented with different websites that provide similar services to the project. This included existing cinema booking websites such as SM Cinemas (https://www.smcinema.com/), Ayala Malls Cinemas (http://www.sureseats.com/), Robinsons Movieworld, and (https://www.robinsonsmovieworld.com/). Projects of other developers were scouted and studied as well, such as phpjabbers’ website (https://www.phpjabbers.com/cinema-booking-system/). <br>
-
-Through this process, the developers have identified the specific requirements necessary for each step to function correctly. The ultimate objective is to develop a website that is easy for users to navigate, visually appealing, and operates efficiently, making it the go-to choice for everyone. <br>
+<ul> The requirements needed were carefully examined and experimented with different websites that provide similar services to the project. This included existing cinema booking websites such as SM Cinemas (https://www.smcinema.com/), Ayala Malls Cinemas (http://www.sureseats.com/), Robinsons Movieworld, and (https://www.robinsonsmovieworld.com/). Projects of other developers were scouted and studied as well, such as phpjabbers’ website (https://www.phpjabbers.com/cinema-booking-system/). <br>
+ <br>
+Through this process, the developers have identified the specific requirements necessary for each step to function correctly. The ultimate objective is to develop a website that is easy for users to navigate, visually appealing, and operates efficiently, making it the go-to choice for everyone. <br> </ul> 
 
 
 ## Website Requirements
@@ -63,34 +63,36 @@ Through this process, the developers have identified the specific requirements n
 
 The website requirements and functions were attained through analysis of existing systems related to the problem at hand. The process was divided into four modules: select a movie, select timings, select a quantity and seat number, and notification to the user and admin. 
 
-**<li>Module 1: Select a movie**
+
+ **<li>Module 1: Select a movie** <br>
 <a name="module1-select-a-movie"></a>
-This module includes the development of the landing page, the browse movie page, and the movie page. The landing page serves as the introductory that provides information about the website. This page includes the logo and the description of the website, as well as the main button that leads the user to the browse movie page.
+----------------------------------------------------------------------------------------------------------
+<ul> This module includes the development of the landing page, the browse movie page, and the movie page. The landing page serves as the introductory that provides information about the website. This page includes the logo and the description of the website, as well as the main button that leads the user to the browse movie page.
 
 The browse movie page serves the main function of the module. It is the home page for the movies, where customers can browse and select through a wide range of movie offerings. This page includes a quick preview section, a movie slider selection section for the latest and the upcoming movies, and a featured film section. This will entice the user with a variety of movie offerings and search through each one. Each movie page contains the following information that will help the customer select the movie they want: movie title, poster, trailer, synopsis, director, cast, genre, run time, rating
-The footer of the page contains the information and contact of the website developers or the administrators of the website, terms and conditions, and privacy policies. These elements are vital and will provide any assistance that the customers can refer to.
+The footer of the page contains the information and contact of the website developers or the administrators of the website, terms and conditions, and privacy policies. These elements are vital and will provide any assistance that the customers can refer to. </ul> 
 
-**<li>Module 2: Select timings**
+**<li>Module 2: Select timings**<br>
 <a name="module2-select-timing"></a>
+----------------------------------------------------------------------------------------------------------
+<ul> This module includes the development of the select timings page. This is the page where the customers will be directed after clicking the “Buy Tickets” button on the movie page. Customers will be able to see the available days and time schedules for their chosen movie. </ul> 
 
-This module includes the development of the select timings page. This is the page where the customers will be directed after clicking the “Buy Tickets” button on the movie page. Customers will be able to see the available days and time schedules for their chosen movie.
-
-**<li>Module 3: Select a quantity and seat number**
+**<li>Module 3: Select a quantity and seat number**<br>
 <a name="module3-select-a-quantity-and-seat-number"></a>
-This module includes the development of the movie booking pages, such as the number of tickets page, the seat reservation page, and the customer details form page. This group of pages is where the customers will specify the number of tickets they want to purchase, select their preferred seats, and provide their information.
+----------------------------------------------------------------------------------------------------------
+<ul> This module includes the development of the movie booking pages, such as the number of tickets page, the seat reservation page, and the customer details form page. This group of pages is where the customers will specify the number of tickets they want to purchase, select their preferred seats, and provide their information.
 
 After selecting the movie timings, the customers will be directed to the number of tickets page. This page displays their selected timings and includes a quantity selector for adjusting the number of tickets they will purchase.
 
 After selecting the number of tickets, the customers will directed to the seat reservation page. On this page, they will be able to view the seating map of the cinema, distinguishing the reserved and the available seats. This visual and interactive approach prevents booking occupied seats and reservation mismanagement. Customers can click or tap on seats, and visual cues like color changes and animations indicate their selections. Furthermore, this seating map allows zooming for clarity in larger cinemas with multiple seat choices. They also have the option to reset their selected seats automatically. 
 
-After selecting their seats, the customers will be directed to the customer details form page where they are required to input their details, such as their email address, name, phone number, address, and country. On this page, they are provided with the summary of their booking and the terms and conditions checkbox before they confirm their reservation. With this, the customers will be able to go back and modify their selections if any error arises.
+After selecting their seats, the customers will be directed to the customer details form page where they are required to input their details, such as their email address, name, phone number, address, and country. On this page, they are provided with the summary of their booking and the terms and conditions checkbox before they confirm their reservation. With this, the customers will be able to go back and modify their selections if any error arises. </ul> 
 
-**<li>Module 4: Notification to user and admin**
+**<li>Module 4: Notification to user and admin**<br>
 <a name="module4-notification-to-user-and-admin"></a>
+----------------------------------------------------------------------------------------------------------
+<ul> This module includes the development of a notification system for both users and administrators. This is essential to ensure a smooth and seamless booking experience for both sides.  </ul> 
 
-This module includes the development of a notification system for both users and administrators. This is essential to ensure a smooth and seamless booking experience for both sides. 
-
- 
 ## Analysis Diagrams
 <a name="analysis-diagrams"></a>
 
