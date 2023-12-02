@@ -20,6 +20,7 @@ User Interface for Booking Movie Tickets.
 - [Analysis Diagrams](#analysis-diagrams)
 - [Flowchart of the Entire Website](#flowchart-of-the-entire-website)
 - [Entity Relationship Diagram (ERD)](#entity-relationship-diagram(ERD))
+- [Website User Manual & Administrator Manual](#website-user-manual-and-administrator-manual)
 
 ----------------------------------------------------------------------------------------------------------
 
@@ -117,15 +118,15 @@ The flowchart meticulously dissects the user's journey within the website, captu
 
 In parallel, the Entity Relationship Diagram (ERD) ventures into the underlying database architecture of the University Cinema website. This scholarly diagram elucidates the entities and their relationships, providing a comprehensive view of how data is structured and interconnected.  <br>
 
+## Website User Manual & Administrator Manual
+<a name="website-user-manual-and-administrator-manual"></a>
 
+<p align="center">
+  <img src="https://github.com/SG-Hangaan/OnlineBooking-MovieTickets/assets/127215110/17bd3ac2-7385-4cc3-a5a1-d27657a8c0f6"/>
+   <br> Figure 2. Entity Relationship Diagram (ERD) of the entire website
+</p>
 
-
-
-
-
-
-
-
+[Website User Manual & Administrator Manual.pdf](https://github.com/SG-Hangaan/OnlineBooking-MovieTickets/files/13536957/Website.User.Manual.Administrator.Manual.pdf)
 
 
 
