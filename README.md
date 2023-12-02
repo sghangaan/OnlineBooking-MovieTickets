@@ -92,7 +92,7 @@ The flowchart meticulously dissects the user's journey within the website, captu
 
 <p align="center">
   <img src="https://github.com/SG-Hangaan/OnlineBooking-MovieTickets/assets/127215110/844667a1-22f0-4a4e-af01-4e8f41f0dcbc"/>
- Figure 2. Entity Relationship Diagram (ERD) of the entire website
+   <br> Figure 2. Entity Relationship Diagram (ERD) of the entire website
 </p>
 
 In parallel, the Entity Relationship Diagram (ERD) ventures into the underlying database architecture of the University Cinema website. This scholarly diagram elucidates the entities and their relationships, providing a comprehensive view of how data is structured and interconnected.
