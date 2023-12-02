@@ -67,7 +67,7 @@ The website requirements and functions were attained through analysis of existin
 <a name="module1-select-a-movie"></a>
 ----------------------------------------------------------------------------------------------------------
 <ul> This module includes the development of the landing page, the browse movie page, and the movie page. The landing page serves as the introductory that provides information about the website. This page includes the logo and the description of the website, as well as the main button that leads the user to the browse movie page.  <br>
-
+ <br>
 The browse movie page serves the main function of the module. It is the home page for the movies, where customers can browse and select through a wide range of movie offerings. This page includes a quick preview section, a movie slider selection section for the latest and the upcoming movies, and a featured film section. This will entice the user with a variety of movie offerings and search through each one. Each movie page contains the following information that will help the customer select the movie they want: movie title, poster, trailer, synopsis, director, cast, genre, run time, rating
 The footer of the page contains the information and contact of the website developers or the administrators of the website, terms and conditions, and privacy policies. These elements are vital and will provide any assistance that the customers can refer to. </ul>  <br>
 
